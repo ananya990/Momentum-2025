@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+.about-bg{
+    background-image: url("/about/Aboutbg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
