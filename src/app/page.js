@@ -3,7 +3,7 @@ import Hero from "./components/homepage/Hero.jsx"
 import About from "./components/homepage/About.jsx"
 import TopEvents from "./components/homepage/TopEvents.jsx";
 import Sponsors from "./components/homepage/Sponsors.jsx";
-import Faq from "./components/homepage/Faq.jsx";
+import Faqs from "./components/homepage/Faqs.jsx";
 import Footer from "./components/homepage/Footer.jsx";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <About/>
       <TopEvents/>
       <Sponsors/>
-      <Faq/>
+      <Faqs/>
       <Footer/>
     </>
   );
