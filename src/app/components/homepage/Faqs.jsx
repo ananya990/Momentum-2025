@@ -32,7 +32,7 @@ function Faqs() {
   ]
   return (
     <>
-      <div className='bg-transparent w-fuindexll faqs-bg h-full py-10 flex items-center justify-center'>
+      <div className='bg-transparent w-fuindexll faqs-bg h-full py-10 flex items-center justify-center mt-20'>
         <div className='flex flex-col items-center space-y-10 w-2/4'>
           <span className='text-white font-bold text-4xl'>Frequently Asked Questions</span>
           <div className='h-[500px] w-full'>
