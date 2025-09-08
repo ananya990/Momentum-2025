@@ -5,7 +5,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className='w-screen bg-[#5A100B] min-h-auto '>
+      <div className='w-screen mt-20 '>
         {/* HOARDING & KATPUTLI */}
         <div className='w-full flex h-auto justify-between absolute'>
           <Image
