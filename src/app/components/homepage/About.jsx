@@ -4,9 +4,8 @@ import React from 'react'
 function About() {
   return (
       <>
-        <div className="h-full bg-[#5A100B] py-10 flex items-center">
-            <div className="about-bg h-[500px] w-full">
-                <div className="h-full flex justify-evenly items-center px-32 text-white space-x-20">
+        <div className="min-h-auto bg-[#5A100B] flex items-center justify-center">
+            <div className="h-full flex justify-evenly items-center px-32 text-white space-x-20 absolute">
                     <Image
                         src="/about/NCU-Logo.svg"
                         height={20}
@@ -27,7 +26,13 @@ function About() {
 
                     </div>
                 </div>
-            </div>
+            <Image
+                src="/about/Aboutbg.svg"
+                height={20}
+                width={20}
+                alt=""
+                className="min-h-auto w-screen"
+            />
         </div>
       </>
   )

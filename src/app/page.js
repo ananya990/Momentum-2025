@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/homepage/Hero.jsx"
 import About from "./components/homepage/About.jsx"
 import TopEvents from "./components/homepage/TopEvents.jsx";
