@@ -3,16 +3,9 @@ import React from 'react'
 
 
 function Hero() {
-  // const layers= new Array.fill(7);
-
   return (
-<>
-    <div className="h-full w-full bg-[#FCE6CE] flex flex-col ">
-      {/* {
-        layers.map(()=>{
-
-        })
-      } */}
+    <>
+      <div className="h-full w-full bg-[#FCE6CE] flex flex-col ">
         <div className='w-full h-full layer flex items-end'>
           <Image
             src="/hero/Layer7.svg"
@@ -76,9 +69,8 @@ function Hero() {
             className='w-full'
           />
         </div>
-        
-    </div>
-</>
+      </div>
+    </>
   )
 }
 
