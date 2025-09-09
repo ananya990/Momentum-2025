@@ -12,7 +12,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[95%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -21,7 +21,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[90%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -30,7 +30,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[70%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -39,7 +39,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[80%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -48,7 +48,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[80%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -57,7 +57,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[75%] lg:h-auto'
           />
         </div>
         <div className='w-full h-full absolute flex items-end'>
@@ -66,7 +66,7 @@ function Hero() {
             height={100}
             width={100}
             alt=''
-            className='w-full'
+            className='w-full object-cover h-[20%] lg:h-auto'
           />
         </div>
       </div>

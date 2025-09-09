@@ -32,11 +32,11 @@ function Faqs() {
   ]
   return (
     <>
-      <div className='bg-transparent w-fuindexll faqs-bg h-full py-10 flex items-center justify-center mt-20'>
-        <div className='flex flex-col items-center space-y-10 w-2/4'>
+      <div className='bg-transparent w-full faqs-bg h-full md:py-10 flex items-center justify-center'>
+        <div className='flex flex-col items-center space-y-10 md:w-2/4 w-full px-5'>
           <span className='text-white font-bold text-4xl'>Frequently Asked Questions</span>
           <div className='h-[500px] w-full'>
-            <Accordion type="single" collapsible className="w-full space-y-5">
+            <Accordion type="single" collapsible className="w-full md:space-y-5 space-y-2">
               {
                 faqs.map((f, index)=>{
                   return (
