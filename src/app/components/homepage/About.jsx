@@ -4,7 +4,7 @@ import React from 'react'
 function About() {
   return (
       <>
-        <div className="min-h-auto flex items-center justify-center">
+        <div className="min-h-auto flex items-center justify-center bg-yellow-200">
             <div className="h-full flex justify-evenly items-center px-4 sm:px-10 lg:px-32 text-white space-x-20 absolute z-20">
                 <Image
                     src="/about/NCU-Logo.svg"
@@ -34,15 +34,13 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* <div className='h-auto'> */}
-                <Image
-                    src="/about/Aboutbg.svg"
-                    height={20}
-                    width={20}
-                    alt=""
-                    className="lg:h-auto lg:w-screen w-[200%] object-cover h-96"
-                />
-            {/* </div> */}
+            <Image
+                src="/about/Aboutbg.svg"
+                height={20}
+                width={20}
+                alt=""
+                className="lg:h-auto lg:w-screen w-[200%] object-cover h-96"
+            />
         </div>
       </>
   )
