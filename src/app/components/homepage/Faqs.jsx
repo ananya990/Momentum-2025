@@ -32,11 +32,11 @@ function Faqs() {
   ]
   return (
     <>
-      <div className='bg-transparent w-full faqs-bg h-full md:py-10 flex items-center justify-center'>
-        <div className='flex flex-col items-center space-y-10 md:w-2/4 w-full px-5'>
-          <span className='text-white font-bold text-4xl'>Frequently Asked Questions</span>
-          <div className='h-[500px] w-full'>
-            <Accordion type="single" collapsible className="w-full md:space-y-5 space-y-2">
+      <div className='w-full lg:h-full md:py-10 flex items-center justify-center'>
+        <div className='flex flex-col items-center space-y-5 md:space-y-10 xl:w-2/4 lg:w-3/4 w-full px-5 z-30'>
+          <span className='text-white font-bold text-2xl md:text-3xl lg:text-4xl'>Frequently Asked Questions</span>
+          <div className='lg:h-[500px] w-full'>
+            <Accordion type="single" collapsible className="w-full lg:space-y-5 space-y-2">
               {
                 faqs.map((f, index)=>{
                   return (
@@ -49,6 +49,13 @@ function Faqs() {
             </Accordion>
           </div>
         </div>
+        <Image
+          src="/faq/FaqBg.svg"
+          height={100}
+          width={100}
+          alt=''
+          className='w-full object-cover h-auto absolute scale-90'
+        />
       </div>
     </>
   )
