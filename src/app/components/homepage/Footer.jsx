@@ -7,32 +7,32 @@ function Footer() {
     <>
       <div className='w-screen mt-20 '>
         {/* HOARDING & KATPUTLI */}
-        <div className='w-full flex h-auto justify-between absolute'>
+        <div className='w-full flex h-auto md:justify-between justify-center absolute'>
           <Image
             src="/footer/Katputli2.svg"
             height={100}
             width={100}
             alt=''
-            className='w-96 -mt-96 z-30'
+            className='md:w-96 md:-mt-96 -mt-44 z-30 hidden'
           />
           <Image
             src="/footer/HoardingBoard.svg"
             height={100}
             width={100}
             alt=''
-            className='w-[650px] -mt-14 z-40'
+            className='md:w-[650px] w-[350px] z-40 -mt-36 bg-yellow-200'
           />
-          <Image
+          {/* <Image
             src="/footer/Katputli1.svg"
             height={100}
             width={100}
             alt=''
-            className='w-96 -mt-72 z-50'
-          />
+            className='w-96 -mt-72 z-50 hidden'
+          /> */}
         </div>
 
         {/* WAVES */}
-        <div className='flex flex-col -space-y-42 w-full'>
+        <div className='flex flex-col md:-space-y-42 -space-y-10 w-full'>
           <div className='w-full flex items-end '>
             <Image
               src="/footer/Wave4.svg"
@@ -69,19 +69,19 @@ function Footer() {
               className='w-full z-30'
             />
             {/* SOCIALS */}
-            <div className='text-xl absolute w-full py-5 flex justify-center'>
-              <span className='flex items-center space-x-5 z-50'>
+            <div className='text-xl absolute w-full md:py-5 py-2 flex justify-center'>
+              <span className='flex items-center md:space-x-5 space-x-3 z-50'>
                 <a href="https://www.facebook.com/ncumomentum/" target='_blank'>
-                  <Facebook size={30} color='#5A100B'/>
+                  <Facebook size={30} color='#5A100B' className='h-6'/>
                 </a>
                 <a href="https://www.instagram.com/ncumomentum/" target='_blank'>
-                  <Instagram size={30} color='#5A100B'/>
+                  <Instagram size={30} color='#5A100B' className='h-6'/>
                 </a>
                 <a href="https://www.youtube.com/channel/UCBbpxkdsOHEVokkCMMxDD8A" target='_blank'>
-                  <Youtube size={30} color='#5A100B'/>
+                  <Youtube size={30} color='#5A100B' className='h-6'/>
                 </a>
                 <a href="https://www.ncuindia.edu/" target='_blank'>
-                  <Globe size={30} color='#5A100B'/>
+                  <Globe size={30} color='#5A100B' className='h-6'/>
                 </a>
               </span>
             </div>
