@@ -5,7 +5,7 @@ function Sponsors() {
   return (
     <>
       <div className='flex flex-col space-y-5 items-center justify-center sponsor-bg h-auto overflow-hidden lg:mt-20'>
-        <div className='text-white lg:font-bold text-2xl md:text-3xl lg:text-4xl font-semibold'>Past Sponsors</div>
+        <div className='text-white lg:font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl font-semibold'>Past Sponsors</div>
         <Image
           src="/sponsors/Sponsors.svg"
           height={20}
