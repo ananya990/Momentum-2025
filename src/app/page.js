@@ -5,6 +5,7 @@ import Sponsors from "./components/homepage/Sponsors.jsx";
 import Faqs from "./components/homepage/Faqs.jsx";
 import Footer from "./components/homepage/Footer.jsx";
 import NavBar from "./components/homepage/NavBar.jsx";
+import FeaturedEvents from "./components/homepage/FeaturedEvents.jsx";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <NavBar/>
       <Hero/>
       <About/>
-      <TopEvents/>
+      <FeaturedEvents/>
       <Sponsors/>
       <Faqs/>
       <Footer/>
