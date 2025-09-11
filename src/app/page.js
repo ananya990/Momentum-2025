@@ -19,12 +19,12 @@ export default function Home() {
       return () => window.removeEventListener("scroll", handleScroll);
 
   }, []);
-  
+
   return (
     <>
       <Hero/>
       <div 
-        style={{ transform: `translateY(-${offset * 0.55}px)` }}
+        style={{ transform: `translateY(-${offset * 0.5}px)` }}
         className="bg-[#5A100B]"
       >
         <About/>
