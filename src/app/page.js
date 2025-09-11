@@ -19,7 +19,7 @@ export default function Home() {
       return () => window.removeEventListener("scroll", handleScroll);
 
   }, []);
-// style={{ transform: `translateY(-${offset * 0.45}px)` }}
+  
   return (
     <>
       <Hero/>
