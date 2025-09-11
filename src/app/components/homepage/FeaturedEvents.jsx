@@ -13,7 +13,7 @@ function FeaturedEvents() {
             {/* Map */}
             <div className="relative z-20 -ml-96 -mr-42 xl:-ml-15 overflow-hidden hidden md:block h-full">
                 <Image
-                    src="/events/map.svg"
+                    src="/events/Map.svg"
                     alt="Map"
                     width={1000}
                     height={800}
