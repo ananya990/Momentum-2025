@@ -7,6 +7,7 @@ import Footer from "./components/homepage/Footer.jsx";
 import FeaturedEvents from "./components/homepage/FeaturedEvents.jsx";
 import FooterMain from "./components/homepage/FooterMain.jsx";
 import React, { useEffect, useState } from "react";
+import EventsMarquee from "./components/homepage/EventsMarquee.jsx";
 
 export default function Home() {
   const [offset, setOffset] = useState(0);
@@ -25,8 +26,9 @@ export default function Home() {
       <Hero/>
       <div 
         style={{ transform: `translateY(-${offset * 0.5}px)` }}
-        className="bg-[#5A100B]"
+        className="bg-[#5A100B] z-20"
       >
+        <EventsMarquee/>
         <About/>
         <FeaturedEvents/>
         <Sponsors/>
