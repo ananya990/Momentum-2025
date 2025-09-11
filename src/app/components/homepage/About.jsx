@@ -39,7 +39,7 @@ function About() {
                 height={20}
                 width={20}
                 alt=""
-                className="lg:h-auto lg:w-screen w-[200%] object-cover h-80"
+                className="lg:h-auto lg:w-screen w-[200%] object-cover h-80 bg-fixed"
             />
         </div>
       </>
