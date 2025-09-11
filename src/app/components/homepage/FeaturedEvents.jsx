@@ -9,9 +9,9 @@ function FeaturedEvents() {
             Events
         </div>
 
-        <div className="relative w-full flex flex-col lg:flex-row items-start px-3 mt-9">
+        <div className="w-full flex lg:flex-row items-center px-3 py-9 h-auto justify-center">
             {/* Map */}
-            <div className="relative z-20 -mr-42 -ml-15 overflow-hidden">
+            <div className="relative z-20 -ml-96 -mr-42 xl:-ml-15 overflow-hidden hidden md:block h-full">
                 <Image
                     src="/events/map.svg"
                     alt="Map"
@@ -23,14 +23,14 @@ function FeaturedEvents() {
             </div>
 
             {/* Rectangles Grid */}
-            <div className="relative z-10 flex-1 grid grid-cols-2 gap-4 mt-20">
+            <div className="relative z-10 flex-1 grid grid-cols-2 gap-4 h-full w-full">
 
                 <div className="col-span-2">
                     <VideoWithFallback
-                    videoSrc="/videos/performance4.mp4"
-                    imageSrc="/events/performance1.jpg"
-                    alt="Performance 4"
-                    className="h-72 w-full object-cover rounded-xl"
+                        videoSrc="/videos/performance4.mp4"
+                        imageSrc="/events/performance1.jpg"
+                        alt="Performance 4"
+                        className="h-72 w-full object-cover rounded-xl"
                     />
                 </div>
             
@@ -38,7 +38,7 @@ function FeaturedEvents() {
                     videoSrc="/videos/performance1.mp4"
                     imageSrc="/events/performance1.jpg"
                     alt="Performance 1"
-                    className="row-span-2 h-full w-full object-cover rounded-xl"
+                    className="row-span-2 h-full w-full object-cover rounded-xl md:hidden xl:block"
                 />
 
                 <VideoWithFallback
