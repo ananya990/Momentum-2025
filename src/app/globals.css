@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  overscroll-behavior-y: none;
+}
+
 .about-bg{
     background-image: url("/about/Aboutbg.svg");
     background-repeat: no-repeat;
