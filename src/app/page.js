@@ -8,7 +8,6 @@ import FeaturedEvents from "./components/homepage/FeaturedEvents.jsx";
 import FooterMain from "./components/homepage/FooterMain.jsx";
 import React, { useEffect, useState } from "react";
 import EventsMarquee from "./components/homepage/EventsMarquee.jsx";
-import { useSession, signIn, signOut } from "next-auth/react"
 
 export default function Home() {
   const [offset, setOffset] = useState(0);
@@ -41,16 +40,16 @@ export default function Home() {
   );
 }
 
-export function Component() {
-  const { data: session } = useSession()
-  if(session) {
-    return <>
-      Signed in as {session.user.email} <br/>
-      <button onClick={() => signOut()}>Sign out</button>
-    </>
-  }
-  return <>
-    Not signed in <br/>
-    <button onClick={() => signIn("google")}>Sign in Using Google</button>
-  </>
-}
+// export default function Home() {
+//   const { data: session } = useSession()
+//   if(session) {
+//     return <>
+//       Signed in as {session.user.email} <br/>
+//       <button onClick={() => signOut()}>Sign out</button>
+//     </>
+//   }
+//   return <>
+//     Not signed in <br/>
+//     <button onClick={() => signIn("google")}>Sign in Using Google</button>
+//   </>
+// }
