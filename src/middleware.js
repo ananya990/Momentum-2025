@@ -15,6 +15,6 @@ export async function middleware(req) {
 
 export const config = {
     matcher: [
-        "/profile"
+        "/api/profile"
     ],
 };

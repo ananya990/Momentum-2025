@@ -9,10 +9,12 @@ function SignInButton() {
     if(!session){
         return (
             <>
-                <Button onClick={()=>{
-                    console.log("Hey Sign In clickeed!")
-                    signIn("google")
-                }}>
+                <Button 
+                    className="z-50 cursor-pointer"
+                    onClick={()=>{
+                        signIn("google")
+                    }}
+                >
                     Sign In
                 </Button>
             </>
@@ -25,7 +27,8 @@ function SignInButton() {
                     height={100}
                     width={100}
                     alt='User'
-                    src={session.user.image}
+                    className='rounded-full h-10 w-10'
+                    src={session.user.image || ""}
                 />
             </div>
         )

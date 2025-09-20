@@ -7,4 +7,4 @@ export function GET(){
     } catch (error) {
         return NextResponse.json({msg:"error",errMsg: error});
     }
-}
+}   
