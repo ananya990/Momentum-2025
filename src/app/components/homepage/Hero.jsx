@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import ShootingStars from "./ShootingStars";
 
 function Hero() {
   const [offset, setOffset] = useState(0);
@@ -15,7 +16,8 @@ function Hero() {
 
   return (
     <>
-      <div className="h-full w-full bg-[#FCE6CE] flex flex-col relative overflow-hidden">
+      <ShootingStars/>
+      <div className="h-full w-full flex flex-col relative overflow-hidden">
         <div
           className="w-full h-full layer flex items-end"
           style={{ transform: `translateY(-${offset * 0.01}px)` }}
