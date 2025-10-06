@@ -22,7 +22,7 @@ function Hero() {
           className="w-full h-full layer flex items-end"
           style={{ transform: `translateY(-${offset * 0.01}px)` }}
         >
-          <Image
+          <img
             src="/hero/Layer7.svg"
             height={100}
             width={100}
@@ -100,8 +100,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.4}px)` }}
         >
-          <Image
-            src="/hero/Layer2.svg"
+          <img
+            src="/hero/Layer2.webp"
             height={100}
             width={100}
             alt=""

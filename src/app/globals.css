@@ -13,8 +13,8 @@
 .wave {
   position: absolute;
   bottom: 0;
-  width: 200%;            /* make it twice as wide as container */
-  animation: waveMove 8s linear infinite;
+  width: 200%;
+  animation: waveMove 10s ease-in-out alternate-reverse infinite;
 }
 
 @keyframes waveMove {
