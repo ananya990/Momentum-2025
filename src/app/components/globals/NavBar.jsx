@@ -21,7 +21,7 @@ function NavBar() {
   return (
     <>
         <div 
-          className={`z-50 flex text-white w-full justify-start px-1 lg:px-6 xl:px-10 py-3 montserrat-light fixed ${scrolled?"bg-white/40 backdrop-blur-md":""}`}
+          className={`z-50 flex text-white w-full justify-start px-1 lg:px-6 xl:px-10 py-3 montserrat-light fixed ${scrolled?"bg-white/40 backdrop-blur-md shadow-lg":""}`}
         >
             <div className='flex items-center justify-center space-x-4'>
                 <Image src="/navbar/NCU-Logo.svg" alt='NCU Logo' height={70} width={70} className='h-10 w-14' />
