@@ -144,7 +144,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 10vh; */
+  margin-top: 10vh;
   margin-left: 40vw;
   transform: rotateZ(-20deg);
   animation: shootingStarAnimation 5s infinite linear;
@@ -158,7 +158,7 @@
 }
 .shootingStarTail{
   height: 2px;
-  width: 15vw;
+  width: 250px;
   background: linear-gradient(90deg,white,transparent);
 }
 @keyframes shootingStarAnimation {
@@ -178,7 +178,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 15vh; */
   margin-left: 70vw;
   transform: rotateZ(-20deg);
   animation: shootingStarAnimation1 5s infinite linear;
