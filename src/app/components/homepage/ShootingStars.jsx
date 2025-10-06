@@ -3,7 +3,7 @@
 export default function ShootingStars(params) {
     return(
         <>
-            <div className="absolute h-[65vh]  overflow-hidden  w-full">
+            <div className="absolute h-96 overflow-hidden w-full">
                 <div className="shootingStarWrapper">
                     <div className="shootingStar"></div>
                     <div className="shootingStarTail"></div>
