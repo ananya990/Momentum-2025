@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased h-screen w-screen   overscroll-none`}
+        className={`antialiased h-screen w-screen bg-[#FCE6CE] overscroll-none`}
       >
         {/* <NavBar/>
         {children} */}
