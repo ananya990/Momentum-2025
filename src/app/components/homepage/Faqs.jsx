@@ -1,9 +1,32 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import Faq from "../../components/homepage/Faq.jsx"
 import { Accordion } from '@/components/ui/accordion.jsx'
+import { useAnimation, useInView, motion } from 'framer-motion';
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.15, // stagger delay between children
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+};
 
 function Faqs() {
+  const controls = useAnimation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { threshold: 0.5,margin: "-200px 0px -200px 0px" });
+
+  useEffect(() => {
+      if (inView) controls.start("visible");
+  }, [controls, inView]);
+
   const faqs= [
     {
       question: "How Can Students from outside NCU Join?",
@@ -32,17 +55,23 @@ function Faqs() {
   ]
   return (
     <>
-      <div className=' w-full h-auto md:py-10 flex items-center justify-center overflow-x-hidden'>
+      <motion.div 
+        ref={ref}
+        variants={containerVariants}
+        initial="hidden"
+        animate={controls}
+        className=' w-full h-auto md:py-10 flex items-center justify-center overflow-x-hidden md:mt-32' >
+
         <div className='flex flex-col items-center space-y-5 md:space-y-10 xl:w-2/4 md:w-3/4 w-full px-5 z-30 '>
-          <span className='text-white font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl'>Frequently Asked Questions</span>
+          <motion.span className='text-white font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl' variants={itemVariants}>Frequently Asked Questions</motion.span>
           <div className='h-full w-full'>
             <Accordion type="single" collapsible className="w-full lg:space-y-5 space-y-2">
               {
                 faqs.map((f, index)=>{
                   return (
-                    <React.Fragment key={index}>
+                    <motion.div key={index} variants={itemVariants}>
                       <Faq faq={f} index={index}/>
-                    </React.Fragment>
+                    </motion.div>
                   )
                 })
               }
@@ -50,15 +79,14 @@ function Faqs() {
           </div>
         </div>
         <div className='h-auto w-full absolute sm:scale-95'>
-          <Image
+          <motion.img
+            variants={itemVariants}
             src="/faq/FaqBg.svg"
-            height={100}
-            width={100}
             alt=''
             className='w-full object-cover'
           />
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }

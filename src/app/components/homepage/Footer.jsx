@@ -1,19 +1,50 @@
+import { useAnimation, useInView, motion } from 'framer-motion';
 import { Facebook, Globe, Instagram, Youtube } from 'lucide-react'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
+
+
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.15, // stagger delay between children
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
+};
 
 function Footer() {
+  const controls = useAnimation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { threshold: 0.5, margin: "-200px 0px -200px 0px" });
+
+  useEffect(() => {
+    if (inView) controls.start("visible");
+  }, [controls, inView]);
+
+
   return (
     <>
-      <div className='w-screen mt-20 '>
+      <motion.div 
+        ref={ref}
+        variants={containerVariants}
+        initial="hidden"
+        animate={controls}
+        className='w-screen mt-20'
+      >
+
         {/* HOARDING & KATPUTLI */}
         <div className='w-full flex h-auto md:justify-between justify-center absolute'>
-          <Image
+          <motion.img
             src="/footer/Katputli2.svg"
-            height={100}
-            width={100}
             alt=''
             className='md:w-96 md:-mt-96 -mt-44 z-30 hidden'
+            variants={itemVariants}
           />
           <Image
             src="/footer/HoardingBoard.svg"
@@ -34,37 +65,29 @@ function Footer() {
         {/* WAVES */}
         <div className='flex flex-col md:-space-y-42 -space-y-10 w-full'>
           <div className='w-full flex items-end '>
-            <Image
+            <img
               src="/footer/Wave4.svg"
-              height={100}
-              width={100}
               alt=''
               className='w-full z-30'
             />
           </div>
           <div className='w-full flex items-end '>
-            <Image
+            <img
               src="/footer/Wave3.svg"
-              height={100}
-              width={100}
               alt=''
               className='w-full z-30'
             />
           </div>
           <div className='w-full flex items-end '>
-            <Image
+            <img
               src="/footer/Wave2.svg"
-              height={100}
-              width={100}
               alt=''
               className='w-full z-30'
             />
           </div>
           <div className='w-full flex items-end z-50'>
-            <Image
+            <img
               src="/footer/Wave1.svg"
-              height={100}
-              width={100}
               alt=''
               className='w-full z-30'
             />
@@ -87,7 +110,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }
