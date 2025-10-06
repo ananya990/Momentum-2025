@@ -2,6 +2,7 @@ import { useAnimation, useInView, motion } from 'framer-motion';
 import { Facebook, Globe, Instagram, Youtube } from 'lucide-react'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
+import AnimatedWaves from './AnimatedWaves';
 
 const containerVariants = {
   hidden: {},
@@ -52,29 +53,29 @@ function FooterMain() {
 
         {/* WAVES */}
         <div className='flex flex-col sm:-space-y-10 xl:-space-y-20 w-full overflow-hidden h-auto'>
-            <Image
-                src="/footer/Waves.svg"
-                height={100}
-                width={100}
-                alt=''
-                className='min-w-full z-40 scale-150 sm:scale-100'
-            />
+          <motion.img
+            src="/footer/Waves.svg"
+            alt=''
+            className='min-w-full z-40 scale-150 sm:scale-100'
+          />
+          {/* <AnimatedWaves /> */}
+
           {/* SOCIALS */}
           <div className='w-full flex items-end z-50 mt-10'>
             <div className='text-xl absolute w-full md:py-5 py-2 flex justify-center'>
               <span className='flex items-center lg:space-x-10 sm:space-x-5 space-x-3 z-50'>
-                <a href="https://www.facebook.com/ncumomentum/" target='_blank'>
+                <motion.a href="https://www.facebook.com/ncumomentum/" target='_blank'>
                   <Facebook size={30} color='#5A100B' className='h-6 lg:h-20'/>
-                </a>
-                <a href="https://www.instagram.com/ncumomentum/" target='_blank'>
+                </motion.a>
+                <motion.a href="https://www.instagram.com/ncumomentum/" target='_blank'>
                   <Instagram size={30} color='#5A100B' className='h-6 lg:h-20'/>
-                </a>
-                <a href="https://www.youtube.com/channel/UCBbpxkdsOHEVokkCMMxDD8A" target='_blank'>
+                </motion.a>
+                <motion.a href="https://www.youtube.com/channel/UCBbpxkdsOHEVokkCMMxDD8A" target='_blank'>
                   <Youtube size={30} color='#5A100B' className='h-6 lg:h-20'/>
-                </a>
-                <a href="https://www.ncuindia.edu/" target='_blank'>
+                </motion.a>
+                <motion.a href="https://www.ncuindia.edu/" target='_blank'>
                   <Globe size={30} color='#5A100B' className='h-6 lg:h-20'/>
-                </a>
+                </motion.a>
               </span>
             </div>
           </div>
