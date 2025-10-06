@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased h-screen w-screen bg-[#FCE6CE] overscroll-none`}
       >
-        <NavBar/>
-        {children}
+        {/* <NavBar/>
+        {children} */}
         {/* <AnimatedWaves/> */}
       </body>
     </html>
