@@ -3,6 +3,31 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Footer Wave Motion */
+
+.wave-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 200%;            /* make it twice as wide as container */
+  animation: waveMove 8s linear infinite;
+}
+
+@keyframes waveMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/*  Section Backgrounds */
+
 .about-bg{
     background-image: url("/about/Aboutbg.svg");
     background-repeat: no-repeat;
@@ -19,6 +44,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Theme */
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);

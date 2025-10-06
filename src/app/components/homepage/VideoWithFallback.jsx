@@ -20,11 +20,11 @@ function VideoWithFallback({ videoSrc, imageSrc, alt, className }) {
                 />
             ) : ( */}
                 <Image
-                src={imageSrc}
-                alt={alt}
-                fill
-                className="object-cover rounded-lg"
-                sizes="100vw"
+                    src={imageSrc}
+                    alt={alt}
+                    fill
+                    className="object-cover rounded-lg"
+                    sizes="100vw"
                 />
             {/* )} */}
         </div>

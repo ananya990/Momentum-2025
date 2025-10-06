@@ -1,5 +1,7 @@
 import "./globals.css";
 import NavBar from "./components/globals/NavBar";
+import Image from "next/image";
+import AnimatedWaves from "./components/homepage/AnimatedWaves";
 
 export const metadata = {
   title: "Momentum 2025",
@@ -12,10 +14,10 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased h-screen w-screen bg-[#FCE6CE] overscroll-none`}
       >
-        {/* <NavBar/>
-        {children} */}
+        <NavBar/>
+        {children}
+        {/* <AnimatedWaves/> */}
       </body>
     </html>
   );
 }
-// bg-[#5A100B]
