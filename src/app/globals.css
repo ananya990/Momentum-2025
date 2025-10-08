@@ -3,6 +3,14 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Profile */
+
+.profile-bg{
+  background-image: url("/profile/profile-bg-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Footer Wave Motion */
 
 .wave-container {
