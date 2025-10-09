@@ -57,7 +57,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 1,
+    "fee": 1200,
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
@@ -226,7 +226,7 @@
     "venue": "",
     "fee": 1200,
     "amount": "",
-    "teamSize": "Solo",
+    "teamSize": "5-20",
     "desc": "",
     "closed": false,
     "criteria": [
@@ -235,16 +235,15 @@
     "rule": [
       "Colleges are expected to bring with them, all the apparels, props and music CDs/ pen drives according to their respective themes, necessary for the event.",
       "All teams should report for the prelim, as no direct entry to the Final event would be allowed.",
-      "Any kind of fluid, flame, powders, heavy or sharp objects or any material which has the possibility of tampering/damaging the stage is STRICTLY not allowed.",
-      "Vulgarity and obscenity at any point are strictly not allowed. It can lead to immediate disqualification.",
-      "Violation of any of the above rules will lead to heavy penalties.",
-      "The decision of the judges shall be final and binding.",
-      "Time limit should be strictly followed. Exceeding the time limit may lead to negative marking by the judges.",
-      "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
+      "The slot for the prelims is 10 minutes, including 5 minutes of setup time and 5 minutes of performance time",
+      "Teams would be selected on the basis of their performance in the prelims to walk on the ramp in the main event.",
+      "The slot for the final event is 15 minutes’ maximum, which includes 3 minutes of setup time as well.",
+      "The soundtrack should be submitted in the respective google forms shared by the coordinators and to be brought in a pen drive (in .mp3 format only).",
+      "Time limit should be strictly followed. Participants will be heavily penalized by judges for not doing so.",
+      "The decision of the organizers regarding the final line-up would be final."
     ],
     "elimination": [
-      "The event consist of a single round with a maximum time limit of 10 minutes for each performance including setting up props (if any) and clearance.",
-      "An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
+      "The event consists of two rounds: Preliminary round and Final round. The teams would be selected for the final round on the basis of their performance in the preliminary round."
     ],
     "TC": []
   },
@@ -369,7 +368,7 @@
   },
   {
     "id": 9,
-    "imgUrl": "/events/10.jpg",
+    "imgUrl": "/events/10.webp",
     "type": "Solo",
     "minSize": "",
     "maxSize": "",
@@ -531,9 +530,9 @@
   {
     "id": 13,
     "imgUrl": "/events/14.jpg",
-    "type": "Solo",
-    "minSize": "",
-    "maxSize": "",
+    "type": "Team",
+    "minSize": "8",
+    "maxSize": "20",
     "waLink": "",
     "categories": [
       "Literary",
@@ -547,23 +546,24 @@
     "venue": "",
     "fee": 1200,
     "amount": "",
-    "teamSize": "Solo",
+    "teamSize": "8-20",
     "desc": "",
     "closed": false,
     "criteria": [
-      "Content, Delivery, Expressions, Engagement"
+      "Content & Message, Acting & Dialogue, Coordination, Creativity, Crowd Engagement, Overall Impact"
     ],
     "rule": [
-      "Originality: Monologues should be original and not copied from another source.",
-      "The language of the monologue must be consistent throughout and be only English and/or Hindi.",
-      "Vulgarity (at the judge’s discretion) at any point is strictly not allowed. It can lead to immediate disqualification.",
-      "Violation of any of the above rules will lead to heavy penalties.",
-      "The decision of the judges shall be final and binding.",
-      "Regarding the final line-up or any kind of dispute that may arise during the event, the decision of the organizers shall be final and binding."
+      "Only live music allowed, no recorded tracks.",
+      "Minimal props; teams must manage their own setup and cleanup.",
+      "Obscenity or offensive content (as per judges’ discretion) will lead to disqualification.",
+      "Themes must carry a social message; original scripts encouraged.",
+      "Performances can be in Hindi, English, or bilingual.",
+      "Paint, fire, water, and glitter are not allowed.",
+      "Teams must strictly follow the time limit — penalties apply for exceeding it.",
+      "The decision of the judges and organizers is final."
     ],
     "elimination": [
-      "The event consist of a single round with a maximum time limit of 3 minutes for each performance including setting up if any.",
-      " An elimination based preliminary round may also be kept based on the number of registrations, if need arises."
+      ""
     ],
     "TC": []
   },
@@ -615,7 +615,7 @@
         "contact": "",
         "dayTime": "",
         "venue": "",
-        "fee": 100,
+        "fee": 1,
         "amount": "",
         "teamSize": "",
         "desc": "",
@@ -685,7 +685,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 120,
+    "fee": 1,
     "amount": "",
     "desc": "",
     "closed": false,
@@ -868,7 +868,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 120,
+    "fee": 1,
     "amount": "",
     "teamSize": "",
     "desc": "",
@@ -912,7 +912,7 @@
         "contact": "",
         "dayTime": "",
         "venue": "",
-        "fee": 100,
+        "fee": 1,
         "amount": "",
         "teamSize": "",
         "closed": false,
@@ -1019,7 +1019,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 100,
+    "fee": 1,
     "amount": "",
     "desc": "Registration: Participants must register in advance, either individually or in teams. Each team can have up to 3 members. Requirement: Participants should bring their own materials for creating rangoli, including colored powders, flowers, and any additional decorative elements. A list of allowed materials will be provided upon registration. Competition Format: The competition will last for 1 hours. Participants will create their rangoli designs on designated spaces marked on the ground. Submission: Completed rangoli designs will be submitted for evaluation at the end of the time limit.",
     "criteria": [
@@ -1055,7 +1055,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 1,
+    "fee": 80,
     "amount": "",
     "desc": "",
     "closed": false,
@@ -1116,7 +1116,7 @@
   },
   {
         "id": 29,
-        "imgUrl": "/events/30.jpg",
+        "imgUrl": "/events/30.jpp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
@@ -1132,7 +1132,7 @@
         "contact": "",
         "dayTime": "",
         "venue": "",
-        "fee": 1,
+        "fee": 80,
         "amount": "",
         "teamSize": "",
         "closed": false,
@@ -1445,17 +1445,22 @@
     "closed": false,
     "teamSize": " 2-3 members",
     "criteria": [
-      "Accuracy of answers",
-      "Speed in responding"
+      "Content & Knowledge (30%): Depth of research, strength of arguments, and relevance of examples.",
+      "Clarity & Delivery (25%): Confidence, articulation, and ability to convey points clearly.",
+      "Rebuttal & Countering (25%): Ability to respond effectively to opponents’ arguments.",
+      "Team Coordination (10%): Balance between team members’ contributions (if team debate)",
+      "Time Management (10%): Adherence to time limits during all rounds."
     ],
     "rule": [
-      "The quiz will consist of multiple-choice, short-answer, and true/false questions.",
-      "Teams will be given time limits for each round.",
-      "In case of cheating, the participant will be disqualified",
-      "Any form of cheating will lead to immediate disqualification."
+      "Participants must strictly follow the allotted speaking times and debate structure.",
+      "Arguments must remain relevant to the assigned topic and free of personal attacks.",
+      "Participants must maintain decorum, respect opposing viewpoints, and use formal language",
+      "Points must be supported with facts, logic, or credible references",
+      "Plagiarism, offensive remarks, or disruptive behavior will lead to disqualification.",
+      "The decision of the judges and organizers will be final and binding in all matters."
     ],
     "elimination": [
-      "Teams scoring below the median will be eliminated in each round."
+      ""
     ]
   },
   {
@@ -1627,23 +1632,27 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 100,
+    "fee": 1,
     "amount": "",
     "desc": "",
     "closed": false,
     "teamSize": " 2-3 members",
     "criteria": [
-      "Accuracy of answers",
-      "Speed in responding"
+      "Performance in Games (50%): Scores achieved, levels cleared, or objectives completed.",
+      "Consistency (20%): Ability to perform across multiple games rather than excelling in only one.",
+      "Strategy & Skill (20%): Smart gameplay, decision-making, and adaptability.",
+      "Time Management (10%): Completion within allotted time where applicable"
     ],
     "rule": [
-      "The quiz will consist of multiple-choice, short-answer, and true/false questions.",
-      "Teams will be given time limits for each round.",
-      "In case of cheating, the participant will be disqualified",
-      "Any form of cheating will lead to immediate disqualification."
+      "Fair Play: Cheating, hacking, or use of unfair means will lead to immediate disqualification.",
+      "Game Format: Each game’s rules will be explained before the round begins; participants must strictly adhere to them.",
+      "Time Limits: If applicable, participants must complete the game within the allotted time.",
+      "Equipment: Organizers will provide necessary equipment for offline games; for online games, participants must use approved setups.",
+      "Behavior: Players must maintain sportsmanship and avoid disruptive or offensive behavior",
+      "Final Authority: The decision of the judges/organizers will be final and binding."
     ],
     "elimination": [
-      "Teams scoring below the median will be eliminated in each round."
+      ""
     ]
   }
 ]
