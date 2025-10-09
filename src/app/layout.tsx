@@ -10,7 +10,7 @@ import GAnalytics from "@/components/GAnalytics";
 
 
 export const metadata: Metadata = {
-  title: "Momentum 2024",
+  title: "Momentum 2025",
   description: "Momentum is a 2-day long festival organized in the month of October. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2024, the 26th Edition is planned for 24th - 25th October.",
 };
 
