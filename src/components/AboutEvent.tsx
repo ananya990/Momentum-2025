@@ -17,7 +17,7 @@ function AboutEvent({setProceedToPay, eventId}) {
   return (
     <>
       <div className='xl:sticky top-[110px] z-30'>
-        <div className='space-y-3'>
+        <div className=''>
           <div className='hidden sm:block'>
             {
               user && user.events.includes(eventId)?
