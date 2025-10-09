@@ -61,9 +61,9 @@ function EventFormWrapper({ eventId }) {
           order_id: data.orderId,
           handler: async function (response) {
             setIsProcessing(true);
-            console.log("razorpay_payment_id", response.razorpay_payment_id);
-            console.log("razorpay_order_id", response.razorpay_order_id);
-            console.log("razorpay_signature", response.razorpay_signature);
+            // console.log("razorpay_payment_id", response.razorpay_payment_id);
+            // console.log("razorpay_order_id", response.razorpay_order_id);
+            // console.log("razorpay_signature", response.razorpay_signature);
             try {
               const rsp = await fetch("/api/payment/verify", {
                 method: "POST",
@@ -74,9 +74,9 @@ function EventFormWrapper({ eventId }) {
                 }),
               });
               if (rsp.status == 200) {
-                console.log("Payment verified!");
+                // console.log("Payment verified!");
               }
-              console.log(rsp);
+              // console.log(rsp);
               setIsProcessing(false);
               window.location.reload();
             } catch (error) {
@@ -97,7 +97,7 @@ function EventFormWrapper({ eventId }) {
         let rzp1 = new window.Razorpay(options);
         rzp1.open();
       } catch (error) {
-        console.log("Payment Failed", error);
+        // console.log("Payment Failed", error);
       } finally {
         setIsProcessing(false);
       }

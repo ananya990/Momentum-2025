@@ -11,7 +11,7 @@ import { IoIosContact } from "react-icons/io";
 
 function EventDetails({event}) {
   useEffect(()=>{
-    console.log(event);
+    // console.log(event);
   },[])
   return (
     <div className='space-y-2 md:space-y-4'>

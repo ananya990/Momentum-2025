@@ -17,7 +17,7 @@ function Options({ loading, panel, refresh, setRefresh, search, setSearch }) {
     const fileMeta =
       "_" + date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear();
     if (data && data.allPayments && panel == 1) {
-      console.log(data);
+      // console.log(data);
       setCsvData(data.allPayments);
       setSheet("Registrations" + fileMeta);
     } else if (data && data.teams && panel == 2) {

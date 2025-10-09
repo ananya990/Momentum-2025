@@ -43,7 +43,7 @@ function UserProfile({ usrDetails }) {
   };
 
   const validateDetails = async () => {
-    console.log(fname, lname, year, dob, addrs, phNum, gender);
+    // console.log(fname, lname, year, dob, addrs, phNum, gender);
     setLoading(true);
     if (!fname) myToast("Enter full name!.");
     else if (fname.length < 3)

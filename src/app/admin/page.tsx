@@ -12,7 +12,7 @@ function Admin() {
     const {user}= useAppContext();
     const router= useRouter();
     useEffect(()=>{
-        console.log(user);
+        // console.log(user);
         if(!user || !session ||  user.role!="admin"){
           router.push("/page-not-found");
         }
