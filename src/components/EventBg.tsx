@@ -21,13 +21,13 @@ function EventBg() {
             className="absolute top-0 left-0 w-full h-full object-cover z-5 pointer-events-none"
             />
 
-            <Image
+            {/* <Image
             src="/eventDescription/Floor_Elements_1.svg"
             alt="Floor"
             height={100}
             width={100}
             className="absolute bottom-0 left-0 w-full object-contain hidden md:block"
-            />
+            /> */}
         </div>
     </>
   )
