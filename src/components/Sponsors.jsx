@@ -32,7 +32,7 @@ function Sponsors() {
         variants={containerVariants}
         initial="hidden"
         animate={controls}
-        className='flex flex-col space-y-5 items-center justify-center h-auto overflow-hidden lg:mt-20 sponsor-bg'
+        className='flex flex-col space-y-5 items-center justify-center h-auto overflow-hidden lg:mt-20'
       >
 
         <motion.div 
@@ -43,9 +43,9 @@ function Sponsors() {
         </motion.div>
         <motion.img
           variants={itemVariants}
-          src="/sponsors/Sponsors.svg"
+          src="/sponsors/Sponsors.webp"
           alt=""
-          className="w-full min-h-auto scale-110 pb-10"
+          className="w-full min-h-auto scale-100 pb-10"
         />
       </motion.div>
     </>

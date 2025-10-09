@@ -33,13 +33,13 @@ function FooterMain() {
         variants={containerVariants}
         initial="hidden"
         animate={controls}
-        className={`w-screen mt-20 footer-bg`}>
+        className={`w-screen mt-20`}>
         {/* HOARDING & KATPUTLI */}
         <div className='w-full flex h-auto md:justify-between justify-center absolute'>
           <motion.img
             src="/footer/Katputli2.svg"
             alt=''
-            className='xl:w-96 md:w-64  z-30 hidden md:block'
+            className='xl:w-96 md:w-64 z-30 hidden md:block'
             variants={itemVariants}
           />
           <motion.img
