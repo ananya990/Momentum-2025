@@ -25,7 +25,7 @@ function AboutEvent({setProceedToPay, eventId}) {
                 <button 
                   className={`mb-4 px-10 py-1 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 
           text-white font-semibold shadow-lg transform transition-all duration-300s
-            hover:scale-105 hover:shadow-[0_0_20px_rgba(255,105,180,0.8)] text-2xl
+            hover:scale-105 hover:shadow-[0_0_20px_rgba(255,105,180,0.8)] text-xl
             animate-pulse w-full`}>
                   Join Whatsapp Group
                 </button>
@@ -47,7 +47,7 @@ function AboutEvent({setProceedToPay, eventId}) {
           <a href={events[eventId].waLink} target='_blank' className='w-full'>
             <button className={`mb-4 px-10 py-1 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 
           text-white font-semibold shadow-lg transform transition-all duration-300s
-            hover:scale-105 hover:shadow-[0_0_20px_rgba(255,105,180,0.8)] text-2xl
+            hover:scale-105 hover:shadow-[0_0_20px_rgba(255,105,180,0.8)] text-xl
             animate-pulse w-full`}></button>
           </a>
           :
