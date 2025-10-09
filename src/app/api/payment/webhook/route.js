@@ -57,6 +57,7 @@ export async function POST(req){
         // const body = await req.json();
         // console.log("JSON body: ", body);
         console.log("Raw Body: ", rawBody);
+        console.log("Headers: ",req.headers);
 
         // get headers
         const signature = req.headers.get("x-razorpay-signature");
