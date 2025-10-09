@@ -26,7 +26,7 @@ function EventBg() {
             alt="Floor"
             height={100}
             width={100}
-            className="absolute bottom-0 left-0 w-full object-contain z-20 hidden md:block"
+            className="absolute bottom-0 left-0 w-full object-contain hidden md:block"
             />
         </div>
     </>
