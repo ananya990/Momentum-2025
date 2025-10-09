@@ -34,10 +34,10 @@ function NavBar() {
             <Image src="/navbar/MMT-Logo.svg" alt='Momentum Logo' height={50} width={50} className='h-10 w-10' onClick={()=>{router.push("/")}}/> 
         </div>
         <div className='flex space-x-4 items-center text-black py-4'>
-            <Button variant="ghost" className='hidden sm:block z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/")}}>Home</Button>
-            <Button variant="ghost" className='hidden sm:block z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/events")}}>Events</Button>
+            <Button variant="ghost" className='md:text-md z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/")}}>Home</Button>
+            <Button variant="ghost" className='md:text-md z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/events")}}>Events</Button>
             <SignInButton/>
-            <Menu size={25} className='sm:hidden'/>
+            {/* <Menu size={25} className='sm:hidden'/> */}
         </div>
         
         {/* <SidebarProvider open={false} className='absolute'>
