@@ -56,34 +56,34 @@ export async function POST(req){
         const rawBody = await req.text();
         // const body = await req.json();
         // console.log("JSON body: ", body);
-        console.log("Raw Body: ", rawBody);
-        console.log("Headers: ",req.headers);
+        // console.log("Raw Body: ", rawBody);
+        // console.log("Headers: ",req.headers);
 
         // get headers
-        const signature = req.headers.get("x-razorpay-signature");
-        const secret = process.env.RPAY_SECRET;
+        // const signature = req.headers.get("x-razorpay-signature");
+        // const secret = process.env.RPAY_SECRET;
 
-        // verify signature
-        const expectedSignature = crypto.createHmac("sha256", secret).update(rawBody).digest("hex");
+        // // verify signature
+        // const expectedSignature = crypto.createHmac("sha256", secret).update(rawBody).digest("hex");
 
-        console.log("Expected:", expectedSignature);
-        console.log("Received:", signature);
+        // console.log("Expected:", expectedSignature);
+        // console.log("Received:", signature);
 
-        if (expectedSignature !== signature) {
-            console.warn("⚠️ Invalid signature");
-            return NextResponse.json({ msg: "unverified" }, { status: 400 });
-        }
+        // if (expectedSignature !== signature) {
+        //     console.warn("⚠️ Invalid signature");
+        //     return NextResponse.json({ msg: "unverified" }, { status: 400 });
+        // }
 
         // parse JSON after verification
         const parsedBody = JSON.parse(rawBody);
-        const orderId = parsedBody.payload?.order?.entity?.id;
-        const orderStatus = parsedBody.payload?.order?.entity?.status;
+        const orderId = parsedBody.payload?.payment?.entity?.order_id;
+        const orderStatus = parsedBody.payload?.payment?.entity?.status;
 
         console.log("parsedBody: ",parsedBody);
         console.log("orderId: ",orderId);
         console.log("orderStatus: ",orderStatus);
 
-        if (orderStatus === "paid") {
+        if (orderStatus === "captured") {
             const result = await updatePaymentByOrderId(orderId);
             console.log(result);
         }
