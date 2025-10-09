@@ -36,12 +36,14 @@ function About() {
         >
             <div className="h-full flex justify-evenly items-center px-4 sm:px-10 lg:px-32 text-white space-x-20 absolute z-20">
 
-                <motion.img 
-                    variants={itemVariants}
-                    src="/about/NCU-Logo.svg"
-                    alt=""
-                    className="h-40 w-40 hidden md:block "
-                />
+                <div className="hidden md:block justify-center items-center">
+                    <motion.img 
+                        variants={itemVariants}
+                        src="/about/NCU-Logo.svg"
+                        alt="NCU Logo"
+                        className="h-40 w-40 "
+                    />
+                </div>
 
                 <div className="flex flex-col lg:space-y-2">
                     <motion.div className="text-sm lg:text-2xl font-semibold " variants={itemVariants}>
