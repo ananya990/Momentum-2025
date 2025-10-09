@@ -54,6 +54,9 @@ export async function POST(req){
 
         // get raw body
         const rawBody = await req.text();
+        const body = await req.json();
+        console.log("JSON body: ", body);
+        console.log("Raw Body: ", rawBody);
 
         // get headers
         const signature = req.headers.get("x-razorpay-signature");
@@ -74,6 +77,10 @@ export async function POST(req){
         const parsedBody = JSON.parse(rawBody);
         const orderId = parsedBody.payload?.order?.entity?.id;
         const orderStatus = parsedBody.payload?.order?.entity?.status;
+
+        console.log("parsedBody: ",parsedBody);
+        console.log("orderId: ",orderId);
+        console.log("orderStatus: ",orderStatus);
 
         if (orderStatus === "paid") {
             const result = await updatePaymentByOrderId(orderId);
