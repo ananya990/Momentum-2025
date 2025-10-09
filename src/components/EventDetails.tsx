@@ -62,14 +62,14 @@ function EventDetails({event}) {
               <RiTeamFill/>
               <span>Team : 1 - 5 persons</span>
             </div> */}
-            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
+            {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <RiTeamFill/>
               <span>Coordinators: {event.coordinators}</span>
-            </div>
-            <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
+            </div> */}
+            {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <IoIosContact/>
               <span>Contact: +91 {event.contact}</span>
-            </div>
+            </div> */}
             {/* <div className='text-sm flex items-center space-x-3'>
               <MdModeStandby/>
               <span>Mode: Offline</span>
