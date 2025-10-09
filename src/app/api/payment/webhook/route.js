@@ -54,8 +54,8 @@ export async function POST(req){
 
         // get raw body
         const rawBody = await req.text();
-        const body = await req.json();
-        console.log("JSON body: ", body);
+        // const body = await req.json();
+        // console.log("JSON body: ", body);
         console.log("Raw Body: ", rawBody);
 
         // get headers
