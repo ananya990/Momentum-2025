@@ -8,11 +8,11 @@ import Users from '@/mongo/models/User';
 import newUserTicket from "../../../../lib/db/methods/newUserTicket"
 import events from "../../../../data/events.json"
 
-async function updatePaymentByOrderId(orderId) {
+async function updatePaymentByOrderId(orderId, orderStatus) {
     try {
         await dbConnect();
 
-        const updatedPayment= await Payment.findOneAndUpdate({orderId: orderId},{status: "paid"})
+        const updatedPayment= await Payment.findOneAndUpdate({orderId: orderId},{status: orderStatus})
 
         console.log(updatedPayment);
 
@@ -23,7 +23,7 @@ async function updatePaymentByOrderId(orderId) {
                 orderId: orderId
             },
             {
-                status: "verified"
+                status: orderStatus=="captured"?"verified":"payment-failed"
             }
         )
 
@@ -84,7 +84,7 @@ export async function POST(req){
         console.log("orderStatus: ",orderStatus);
 
         if (orderStatus === "captured") {
-            const result = await updatePaymentByOrderId(orderId);
+            const result = await updatePaymentByOrderId(orderId, orderStatus);
             console.log(result);
         }
 
