@@ -8,7 +8,7 @@ function VideoWithFallback({ videoSrc, imageSrc, alt, className }) {
 
     return (
         <div className={`relative w-full overflow-hidden ${className}`}>
-            {/* {!error ? (
+            {!error ? (
                 <video
                 src={videoSrc}
                 autoPlay
@@ -18,7 +18,7 @@ function VideoWithFallback({ videoSrc, imageSrc, alt, className }) {
                 className="w-full h-full object-cover rounded-lg"
                 onError={() => setError(true)}
                 />
-            ) : ( */}
+            ) : (
                 <Image
                     src={imageSrc}
                     alt={alt}
@@ -26,7 +26,7 @@ function VideoWithFallback({ videoSrc, imageSrc, alt, className }) {
                     className="object-cover rounded-lg"
                     sizes="100vw"
                 />
-            {/* )} */}
+            )}
         </div>
     );
 }
