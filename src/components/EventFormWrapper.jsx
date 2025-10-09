@@ -51,6 +51,7 @@ function EventFormWrapper({ eventId }) {
         });
         const data = await response.json();
 
+
         // initialize razprpay
         const options = {
           key: process.env.NEXT_PUBLIC_RPAY_KEY,
@@ -96,6 +97,8 @@ function EventFormWrapper({ eventId }) {
 
         let rzp1 = new window.Razorpay(options);
         rzp1.open();
+
+        alert("**PAYMENT IN PROGRESS** Don't close the tab, else ticket won't be Generated. Page would be automatically redirected!")
       } catch (error) {
         // console.log("Payment Failed", error);
       } finally {
