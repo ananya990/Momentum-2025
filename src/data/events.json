@@ -57,7 +57,7 @@
     "contact": "",
     "dayTime": "",
     "venue": "",
-    "fee": 1,
+    "fee": 1200,
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
@@ -368,7 +368,7 @@
   },
   {
     "id": 9,
-    "imgUrl": "/events/10.jpg",
+    "imgUrl": "/events/10.webp",
     "type": "Solo",
     "minSize": "",
     "maxSize": "",
@@ -1116,7 +1116,7 @@
   },
   {
         "id": 29,
-        "imgUrl": "/events/30.jpg",
+        "imgUrl": "/events/30.jpp",
         "type": "Solo",
         "minSize": "",
         "maxSize": "",
