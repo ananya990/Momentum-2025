@@ -89,7 +89,7 @@ function FeaturedEvents() {
 
                         <div className="col-span-2 ">
                             <VideoWithFallback
-                                videoSrc="/videos/performance4.webm"
+                                videoSrc="/videos/performance5.webm"
                                 imageSrc="/event/performance1.jpg"
                                 alt="Performance 4"
                                 className="h-72 w-full object-cover rounded-xl"
