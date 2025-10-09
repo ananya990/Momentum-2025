@@ -50,26 +50,37 @@ async function updatePaymentByOrderId(orderId) {
 
 export async function POST(req){
     try {
-        console.log("Hello from webhook for razorpay!");
+        console.log("Webhook hit: Razorpay");
 
-        const reqBody = JSON.stringify(req.body) || "XXX";
-        const signature = req.headers["x-razorpay-signature"] || "XXX";
-        const secret= process.env.RPAY_SECRET;
-        const expectedSignature = crypto.createHmac("sha256", secret).update(reqBody).digest("hex");
+        // get raw body
+        const rawBody = await req.text();
 
-        console.log(reqBody, signature, secret, expectedSignature)
+        // get headers
+        const signature = req.headers.get("x-razorpay-signature");
+        const secret = process.env.RPAY_SECRET;
 
-        if (expectedSignature == signature) {
-            const orderId = JSON.parse(reqBody).payload.order.entity.id;
-            const orderStatus = JSON.parse(reqBody).payload.order.entity.status;
-            if (orderStatus == "paid") {
-                const order = await updatePaymentByOrderId(orderId);
-                console.log(order);
-            }
+        // verify signature
+        const expectedSignature = crypto.createHmac("sha256", secret).update(rawBody).digest("hex");
+
+        console.log("Expected:", expectedSignature);
+        console.log("Received:", signature);
+
+        if (expectedSignature !== signature) {
+            console.warn("⚠️ Invalid signature");
+            return NextResponse.json({ msg: "unverified" }, { status: 400 });
         }
-        else return NextResponse.json({"msg":"unverified"},{status: 500})
 
-        return NextResponse.json({msg:"success!"},{status: 200})
+        // parse JSON after verification
+        const parsedBody = JSON.parse(rawBody);
+        const orderId = parsedBody.payload?.order?.entity?.id;
+        const orderStatus = parsedBody.payload?.order?.entity?.status;
+
+        if (orderStatus === "paid") {
+            const result = await updatePaymentByOrderId(orderId);
+            console.log(result);
+        }
+
+        return NextResponse.json({ msg: "success!" }, { status: 200 });
     } catch (error) {
         console.log("Error creating order: ", error);
         return NextResponse.json({error: "Error"},{status: 500})
