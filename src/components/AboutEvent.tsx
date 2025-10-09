@@ -11,7 +11,7 @@ function AboutEvent({setProceedToPay, eventId}) {
   const [drawerOpen, setDrawerOpen]= useState(false);
   const {user}= useAppContext();
 
-  console.log(user);
+  // console.log(user);
   
 
   return (

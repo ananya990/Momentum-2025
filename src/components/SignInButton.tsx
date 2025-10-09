@@ -27,7 +27,7 @@ function SignInButton() {
     });
     const details = await user.json();
     const { data } = details;
-    console.log(data);
+    // console.log(data);
     setUser(data);
   }
 
@@ -78,7 +78,7 @@ function SignInButton() {
       onClick={async ()=> {
         await signIn();
       }} 
-      className="text-white ml-auto px-6 bg-[#ffffff77] py-[7px] rounded-[2rem] hover:bg-[#ffffffa9]">
+      className="text-black ml-auto px-6 bg-[#ffffff77] py-[7px] rounded-[2rem] hover:bg-[#ffffffa9]">
       Sign In
     </button>
   )
