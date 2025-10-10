@@ -101,7 +101,7 @@ function Hero() {
           style={{ transform: `translateY(-${offset * 0.4}px)` }}
         >
           <img
-            src="/hero/Layer2.webp"
+            src="/hero/Layer2.svg"
             height={100}
             width={100}
             alt=""
