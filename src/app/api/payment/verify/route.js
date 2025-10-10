@@ -14,7 +14,7 @@ async function updatePaymentByOrderId(orderId) {
     try {
         await dbConnect();
 
-        const updatedPayment= await Payment.findOneAndUpdate({orderId: orderId},{status: "paid"})
+        const updatedPayment= await Payment.findOneAndUpdate({orderId: orderId},{status: "captured"})
 
         console.log(updatedPayment);
 
