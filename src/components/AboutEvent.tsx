@@ -16,8 +16,8 @@ function AboutEvent({setProceedToPay, eventId}) {
 
   return (
     <>
-      <div className='xl:sticky top-[110px] z-30'>
-        <div className=''>
+      <div className='xl:sticky top-[110px] z-30 w-full md:w-auto'>
+        <div className='w-full md:w-auto'>
           <div className='hidden sm:block'>
             {
               user && user.events.includes(eventId)?
@@ -35,7 +35,7 @@ function AboutEvent({setProceedToPay, eventId}) {
             }
           </div>
           <Image src={events[eventId].imgUrl} height={300} width={300} alt='p1' 
-            className='mt-8 flex flex-col items-center bg-white rounded-lg shadow-lg p-4 w-[280px] md:w-[300px] flex-shrink-0'/> 
+            className='mt-8 flex flex-col items-center bg-white rounded-lg shadow-lg p-4 w-full lg:w-[300px] flex-shrink-0'/> 
         </div>
       </div>
       <div className='bg-[#5A100B] text-white rounded-lg shadow-lg p-6 w-full md:w-[750px] h-[500px] overflow-y-auto'>
