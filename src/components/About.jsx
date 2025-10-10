@@ -66,8 +66,8 @@ function About() {
                     </motion.div>
                 </div>
             </div>
-            <Image
-                src="/about/Aboutbg.svg"
+            <img
+                src="/about/Aboutbg.webp"
                 height={20}
                 width={20}
                 alt=""

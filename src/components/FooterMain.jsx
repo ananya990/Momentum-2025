@@ -37,7 +37,7 @@ function FooterMain() {
         {/* HOARDING & KATPUTLI */}
         <div className='w-full flex h-auto md:justify-between justify-center absolute'>
           <motion.img
-            src="/footer/Katputli2.svg"
+            src="/footer/Katputli2.webp"
             alt=''
             className='xl:w-96 md:w-64 z-30 hidden md:block'
             variants={itemVariants}

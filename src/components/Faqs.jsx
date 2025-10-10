@@ -81,7 +81,7 @@ function Faqs() {
         <div className='h-auto w-full absolute sm:scale-95'>
           <motion.img
             variants={itemVariants}
-            src="/faq/FaqBg.svg"
+            src="/faq/FaqBg.webp"
             alt=''
             className='w-full object-cover'
           />
