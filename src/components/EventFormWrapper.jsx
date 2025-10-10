@@ -29,6 +29,7 @@ function EventFormWrapper({ eventId }) {
     setMembers(team);
   }, [maxSize]);
    
+  
   const handlePayment = async () => {
     let isValid = true;
     if (!tc) {
