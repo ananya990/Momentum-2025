@@ -223,13 +223,13 @@ body{
 /*  Section Backgrounds */
 
 .about-bg{
-    background-image: url("/about/Aboutbg.svg");
+    background-image: url("/about/Aboutbg.webp");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .faqs-bg{
-    background-image: url("/faq/FaqBg.svg");
+    background-image: url("/faq/FaqBg.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
