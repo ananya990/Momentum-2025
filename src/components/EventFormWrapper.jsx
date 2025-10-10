@@ -144,15 +144,15 @@ function EventFormWrapper({ eventId }) {
   return (
     <>
       <Script src="https://checkout.razorpay.com/v1/checkout.js" />
-      <div className="text-white flex md:w-[90%] sm:space-x-5 justify-evenly z-30">
+      <div className="text-white flex flex-col space-y-10 lg:space-y-0 lg:flex-row sm:w-[100%] lg:space-x-5 justify-evenly z-30">
         <Image
           src={events[eventId].imgUrl}
           height={200}
           width={200}
           alt="p1"
-          className="flex flex-col items-center bg-white rounded-lg shadow-lg p-4 w-[280px] md:w-[300px] flex-shrink-0"
+          className="flex flex-col items-center bg-white rounded-lg shadow-lg p-4 w-full lg:w-96 h-auto "
         />
-        <div className="flex flex-col space-y-2 w-full md:w-3/5">
+        <div className="flex flex-col space-y-2 w-full lg:w-3/5">
           <div className="bg-[#5A100B] rounded-md p-3 sm:p-5 max-h-[480px] overflow-y-scroll">
             <EventForm
               rId={rId}
