@@ -7,6 +7,8 @@ import Team from '@/mongo/models/Team';
 import Users from '@/mongo/models/User';
 import newUserTicket from "../../../../lib/db/methods/newUserTicket"
 import events from "../../../../data/events.json"
+import checkUser from '../../../../lib/db/methods/checkUser';
+import { getToken } from "next-auth/jwt";
 
 async function updatePaymentByOrderId(orderId) {
     try {
@@ -52,6 +54,12 @@ export async function POST(req){
     try {
         const body= await req.json();
         const {razorpay_order_id, razorpay_payment_id, razorpay_signature,}= body;
+        const {email} = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
+
+        const userResponse= await checkUser(email);
+        console.log(userResponse);
+
+        if(!userResponse.success) return NextResponse.json({msg: "Invalid User", success: false})
 
         const pmntString= razorpay_order_id +"|" +razorpay_payment_id;
         const secret= process.env.RPAY_SECRET;
