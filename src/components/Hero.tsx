@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import ShootingStars from "./ShootingStars";
+import Image from "next/image";
 
 function Hero() {
   const [offset, setOffset] = useState(0);
@@ -23,7 +23,7 @@ function Hero() {
           style={{ transform: `translateY(-${offset * 0.01}px)` }}
         >
           <img
-            src="/hero/Layer7.svg"
+            src="/hero/Layer7.webp"
             height={100}
             width={100}
             alt=""
@@ -48,8 +48,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.09}px)` }}
         >
-          <Image
-            src="/hero/Layer6.svg"
+          <img
+            src="/hero/Layer6.webp"
             height={100}
             width={100}
             alt=""
@@ -61,8 +61,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.25}px)` }}
         >
-          <Image
-            src="/hero/Layer5.svg"
+          <img
+            src="/hero/Layer5.webp"
             height={100}
             width={100}
             alt=""
@@ -74,8 +74,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.3}px)` }}
         >
-          <Image
-            src="/hero/Layer4.svg"
+          <img
+            src="/hero/Layer4.webp"
             height={100}
             width={100}
             alt=""
@@ -87,8 +87,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.35}px)` }}
         >
-          <Image
-            src="/hero/Layer3.svg"
+          <img
+            src="/hero/Layer3.webp"
             height={100}
             width={100}
             alt=""
@@ -101,7 +101,7 @@ function Hero() {
           style={{ transform: `translateY(-${offset * 0.4}px)` }}
         >
           <img
-            src="/hero/Layer2.svg"
+            src="/hero/Layer2.webp"
             height={100}
             width={100}
             alt=""
@@ -113,8 +113,8 @@ function Hero() {
           className="w-full h-full absolute flex items-end"
           style={{ transform: `translateY(-${offset * 0.45}px)` }}
         >
-          <Image
-            src="/hero/Layer1.svg"
+          <img
+            src="/hero/Layer1.webp"
             height={100}
             width={100}
             alt=""
