@@ -38,14 +38,14 @@ function FooterMain() {
           <motion.img
             src="/footer/Katputli2.webp"
             alt=''
-            className='xl:w-96 md:w-64 z-30 hidden md:block'
+            className='h-96 z-30 hidden md:block xl:mt-20'
             variants={itemVariants}
           />
           <motion.img
             src="/footer/Katputli1.webp"
             variants={itemVariants}
             alt=''
-            className='xl:w-96 md:w-64 z-50 hidden md:block'
+            className='h-96 z-50 hidden md:block'
           />
         </div>
 
