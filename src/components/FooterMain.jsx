@@ -52,7 +52,7 @@ function FooterMain() {
         {/* WAVES */}
         <div className='flex flex-col sm:-space-y-10 xl:-space-y-20 w-full overflow-hidden h-auto'>
           <motion.img
-            src="/footer/Waves.webp"
+            src="/footer/Waves.svg"
             alt=''
             className='min-w-full z-40 scale-150 sm:scale-100'
           />
