@@ -1,6 +1,5 @@
 import { useAnimation, useInView, motion } from 'framer-motion';
 import { Facebook, Globe, Instagram, Youtube } from 'lucide-react'
-import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 
 const containerVariants = {
@@ -43,7 +42,7 @@ function FooterMain() {
             variants={itemVariants}
           />
           <motion.img
-            src="/footer/Katputli1.svg"
+            src="/footer/Katputli1.webp"
             variants={itemVariants}
             alt=''
             className='xl:w-96 md:w-64 z-50 hidden md:block'
