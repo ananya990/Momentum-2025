@@ -65,11 +65,6 @@ body{
     background-size: cover;
     /* opacity: 0.5; */
 }
-.event-details-bg{
-    background: url("/torn-ppr.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .poster-bg{
     background: url("/poster-bg-1.jpg");
     background-repeat: no-repeat;
