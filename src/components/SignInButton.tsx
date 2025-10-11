@@ -50,12 +50,12 @@ function SignInButton() {
                 <button >Profile</button> 
               </div>
             </Link>
-            <Link href={"/profile"}>
+            {/* <Link href={"/profile"}>
               <div className="flex justify-start items-center px-3 py-1 space-x-3 rounded-md hover:bg-gray-200 text-xs md:text-sm xl:text-base">
                 <MdOutlineEmojiEvents size={14}/>
                 <button >My Events</button> 
               </div>
-            </Link>
+            </Link> */}
             <div className="flex justify-start items-center px-3 py-1 space-x-3 rounded-md hover:bg-gray-200 text-xs md:text-sm xl:text-base"
               onClick={()=>{
                 signOut()
