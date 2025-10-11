@@ -25,7 +25,7 @@ function Page({params}) {
     <>
       {
         ((params.eventId>=0 && params.eventId<=42)?
-          <div className='min-h-screen bg-[url("/eventDescription/Wall_Design_Petals.svg")] sm:bg-transparent'>
+          <div className='min-h-screen bg-[url("/eventDescription/Wall_Design_Petals.webp")] sm:bg-transparent'>
             <div className='relative flex flex-col md:flex-row justify-center items-start gap-8 px-6 md:px-16 py-12 z-10 pt-20 overflow-y-scroll md:overflow-y-hidden'>
               {
                 !proceedToPay?

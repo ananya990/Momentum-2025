@@ -20,7 +20,7 @@
 
 /* .event-bg {
   background-color: #5b100b;
-  background-image: url("/event/brick-wall.png");
+  background-image: url("/event/brick-wall.webp");
   height: 100%;
   width: 100%;
 } */
@@ -60,7 +60,7 @@ body{
 }
 
 .event-bg{
-    background: url("/eventDescription/Wall_Design.svg");
+    background: url("/eventDescription/Wall_Design.webp");
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 0.5; */

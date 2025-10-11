@@ -53,7 +53,7 @@ export default function Events({ }) {
         </div>
       </div>
       <img
-        src="/event/brick-wall.png"
+        src="/event/brick-wall.webp"
         alt=""
         className="h-screen min-w-[2000px] overflow-x-hidden fixed -z-10 bg-[#5b100b]"
       />
