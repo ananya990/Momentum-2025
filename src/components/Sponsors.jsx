@@ -43,7 +43,7 @@ function Sponsors() {
         </motion.div>
         <motion.img
           variants={itemVariants}
-          src="/sponsors/Sponsors.webp"
+          src="/sponsors/Sponsors-1.webp"
           alt=""
           className="w-full min-h-auto scale-100 pb-10"
         />
