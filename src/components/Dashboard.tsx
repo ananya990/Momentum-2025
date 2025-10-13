@@ -18,6 +18,7 @@ function Dashboard({panel}) {
   useEffect(()=>{
     handleRequest();
   },[panel, refresh])
+
   async function handleRequest() {
     setLoading(true);
     if(panel==0){
@@ -34,6 +35,7 @@ function Dashboard({panel}) {
     }
     setLoading(false);
   }
+
   async function handleResponse(url){
     try {
 
@@ -62,12 +64,7 @@ function Dashboard({panel}) {
       <div className='h-full w-[95%] p-5 text-white space-y-5'>
         <div className='text-3xl'>{heading[panel]}</div>
         <hr />
-        {/* {
-          panel!==0? */}
-          <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search}/>
-          {/* :
-          <></>
-        } */}
+        <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search}/>
         {
           panel==0?
           <Overview loading={loading}/>
@@ -77,15 +74,15 @@ function Dashboard({panel}) {
           :
           (
             panel==1?
-            <Registrations search={search}/>
+            <Registrations search={search} loading={loading}/>
             :
             (
               panel==2?
-              <Teams search={search}/>
+              <Teams search={search}  loading={loading}/>
               :
               (
                 panel==3?
-                <Users search={search}/>
+                <Users search={search} loading={loading}/>
                 :
                 <></>
               )

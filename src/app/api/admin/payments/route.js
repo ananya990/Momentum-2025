@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import getAllPayment from '../../../../lib/db/methods/getAllPayment';
 
-export async function GET(){
+export async function POST(){
     try{
         const payments= await getAllPayment();
         return NextResponse.json({allPayments: payments},{status: 200});
