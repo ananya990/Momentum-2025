@@ -4,9 +4,8 @@ import { CiSearch } from "react-icons/ci";
 import { MdOutlineFileDownload } from "react-icons/md";
 import exportFromJSON from "export-from-json";
 import { MdRefresh } from "react-icons/md";
-function Options({ loading, panel, refresh, setRefresh, search, setSearch }) {
+function Options({ loading, panel, refresh, setRefresh, search, setSearch, data }) {
   const [inProgress, setInProgress] = useState(loading);
-  const { data } = useAppContext();
 
   const [csvData, setCsvData] = useState([]);
   const [sheet, setSheet] = useState("");
