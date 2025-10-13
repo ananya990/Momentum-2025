@@ -1,17 +1,19 @@
 import { useAppContext } from '@/app/context/ContextProvider';
 import React from 'react'
 
-function Teams({search}) {
+function Teams({search, loading}) {
   const {data}= useAppContext();
   return (
     <>
-      <div className="relative overflow-x-auto h-[79%] overflow-y-scroll">
+      {
+        !loading?
+        <div className="relative overflow-x-auto h-[79%] overflow-y-scroll">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 sticky top-0">
             <tr>
               {data &&
                 data.teams &&
-                Object.keys(data.teams[0]).map((heading, index) => {
+                Object.keys(data.teams[0] || []).map((heading, index) => {
                   if(heading=="__v" || heading=="teamMembers") return <React.Fragment key={index}></React.Fragment>
                   else{
                     return (
@@ -26,7 +28,8 @@ function Teams({search}) {
           <tbody>
             {data &&
               data.teams &&
-              data.teams.map((obj, index) => {
+              data.teams.length>0 &&
+              [...data.teams].map((obj, index) => {
                 return (
                   (
                     (obj.eventName+"").toLowerCase().includes(search.toLowerCase())|| 
@@ -42,8 +45,10 @@ function Teams({search}) {
                     >
                       {obj._id}
                     </th>
-                    <td className="px-3 py-2 w-fit">{obj.eventName}</td>
-                    <td className="px-3 py-2 w-fit">{obj.teamName}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.eventName}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.teamName}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.status}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.orderId}</td>
                   </tr>
                   :
                   <React.Fragment key={index}/>
@@ -52,6 +57,9 @@ function Teams({search}) {
           </tbody>
         </table>
       </div>
+      :
+      <>Loading</>
+      }
     </>
   )
 }

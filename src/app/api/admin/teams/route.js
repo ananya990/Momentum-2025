@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import getAllTeams from '../../../../lib/db/methods/getAllTeams';
 
-export async function GET(){
+export async function POST(){
     try{
         const teams= await getAllTeams();
         return NextResponse.json({teams: teams},{status: 200});

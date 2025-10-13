@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import getAllUsers from '../../../../lib/db/methods/getAllUsers';
 
-export async function GET(){
+export async function POST(){
     try{
         const users= await getAllUsers();
         return NextResponse.json({allUsers: users},{status: 200});

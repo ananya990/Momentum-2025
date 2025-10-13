@@ -3,6 +3,8 @@ import React from 'react'
 
 function Overview({loading}) {
   const {data}= useAppContext();
+  console.log(data);
+  
   return (
     <>
       {

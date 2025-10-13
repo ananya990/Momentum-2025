@@ -7,6 +7,7 @@ export default async function getAllPayment(){
         const data= await Payment.find({}).populate("userId");
         
         const finalData= [];
+        console.log(data);
         
 
         for (let i = 0; i < data.length; i++) {
@@ -55,7 +56,7 @@ export default async function getAllPayment(){
 
             finalData.push(refinedData);
         }
-        
+        console.log(finalData);
         return finalData;
         // return data;
     }
