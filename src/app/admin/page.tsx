@@ -10,20 +10,22 @@ function Admin() {
     
     const { data: session } = useSession();
     const {user}= useAppContext();
-    const router= useRouter();
-    useEffect(()=>{
-        // console.log(user);
-        if(!user || !session ||  user.role!="admin"){
-          router.push("/page-not-found");
-        }
-    },[user])
+
+    console.log(user, session)
 
     const [panel, setPanel]= useState(0);
     return (
-        <div className='h-screen w-screen bg-[#1c1c1c] flex z-50'>
-            <SidePanel setPanel={setPanel} panel={panel}/>
-            <Dashboard panel={panel}/>
-        </div>
+        <>
+            {
+                !(session && user && user.role=="admin")?
+                <div className="h-full w-full flex items-center justify-center text-xl font-extralight">Not Authorised</div>
+                :
+                <div className='h-screen w-screen bg-[#1c1c1c] flex z-50'>
+                    <SidePanel setPanel={setPanel} panel={panel}/>
+                    <Dashboard panel={panel}/>
+                </div>
+            }
+        </>
     )
 }
 

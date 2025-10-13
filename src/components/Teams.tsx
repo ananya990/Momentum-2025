@@ -29,7 +29,7 @@ function Teams({search, loading, data}) {
             {data &&
               data.teams &&
               data.teams.length>0 &&
-              [...data.teams].map((obj, index) => {
+              data.teams.map((obj, index) => {
                 return (
                   (
                     (obj.eventName+"").toLowerCase().includes(search.toLowerCase())|| 
@@ -43,12 +43,12 @@ function Teams({search, loading, data}) {
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                     >
-                      {obj._id}
+                      {obj._id+""}
                     </th>
-                    <td className="px-3 py-2 w-fit text-nowrap">{obj.eventName}</td>
-                    <td className="px-3 py-2 w-fit text-nowrap">{obj.teamName}</td>
-                    <td className="px-3 py-2 w-fit text-nowrap">{obj.status}</td>
-                    <td className="px-3 py-2 w-fit text-nowrap">{obj.orderId}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.eventName+""}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.teamName+""}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.status+""}</td>
+                    <td className="px-3 py-2 w-fit text-nowrap">{obj.orderId+""}</td>
                   </tr>
                   :
                   <React.Fragment key={index}/>
