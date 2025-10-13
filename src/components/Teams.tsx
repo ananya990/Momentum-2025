@@ -1,8 +1,7 @@
 import { useAppContext } from '@/app/context/ContextProvider';
 import React from 'react'
 
-function Teams({search, loading}) {
-  const {data}= useAppContext();
+function Teams({search, loading, data}) {
   return (
     <>
       {
@@ -13,8 +12,9 @@ function Teams({search, loading}) {
             <tr>
               {data &&
                 data.teams &&
-                Object.keys(data.teams[0] || []).map((heading, index) => {
-                  if(heading=="__v" || heading=="teamMembers") return <React.Fragment key={index}></React.Fragment>
+                data.teams[0] &&
+                Object.keys(data.teams[0]).map((heading, index) => {
+                  if(heading && (heading=="__v" || heading=="teamMembers")) return <React.Fragment key={index}></React.Fragment>
                   else{
                     return (
                       <th scope="col" className="px-6 py-3" key={index}>

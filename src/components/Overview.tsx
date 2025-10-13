@@ -1,10 +1,8 @@
 import { useAppContext } from '@/app/context/ContextProvider'
 import React from 'react'
 
-function Overview({loading}) {
-  const {data}= useAppContext();
-  console.log(data);
-  
+function Overview({loading, data}) {
+
   return (
     <>
       {

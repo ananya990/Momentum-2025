@@ -1,8 +1,7 @@
 import { useAppContext } from '@/app/context/ContextProvider';
 import React from 'react'
 
-function Users({search, loading}) {
-  const {data}= useAppContext();
+function Users({search, loading, data}) {
   return (
     <>
       {
