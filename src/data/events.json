@@ -1164,9 +1164,9 @@
     {
     "id": 30,
     "imgUrl": "/events/31.jpg",
-    "type": "Solo",
-    "minSize": "",
-    "maxSize": "",
+    "Type": "Team",
+    "minSize": "2",
+    "maxSize": "2",
     "waLink": "",
     "categories": [
         "Non Technical",
