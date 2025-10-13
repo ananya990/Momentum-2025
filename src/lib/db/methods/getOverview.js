@@ -10,9 +10,14 @@ export default async function getOverview(){
         const payments= await Payment.find({});
         const teams= await Team.find({});
 
+        const finalPayment=[];
+        for (const p of payments) {
+            if(p.status=="captured") finalPayment.push(p);
+        }
+
         return {
             users: users.length,
-            payments: payments.length,
+            payments: finalPayment.length,
             teams: teams.length
         };
     }

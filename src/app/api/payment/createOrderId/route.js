@@ -19,6 +19,8 @@ export async function POST(req){
 
         console.log(eventId, teamName, teamMembers, referral);
 
+        if(!eventId) throw Error("Error creating order");
+
         // check for existing order id
         const {_id}= await Users.findOne({email: email});
         let payment= await Payment.findOne({userId: _id, eventName: events[eventId].name})
@@ -35,6 +37,7 @@ export async function POST(req){
             )
             console.log("Referral: ", referralUpdated);
             console.log({orderId: payment.orderId, amount: payment.amount, currency: "INR"});
+            if(!payment.orderId) throw Error("Error creating order.");
             return NextResponse.json({orderId: payment.orderId, amount: payment.amount, currency: "INR"},{status: 200})
         }
 
@@ -57,6 +60,8 @@ export async function POST(req){
             receipt: shortid.generate()
         })
         console.log(order);
+
+        if(!order.id) throw Error("Error creating order.");
 
         // create new entry of payment
         await createPayment({
