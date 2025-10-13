@@ -66,7 +66,7 @@ function Dashboard({panel}) {
       <div className='h-full w-[95%] p-5 text-white space-y-5'>
         <div className='text-3xl'>{heading[panel]}</div>
         <hr />
-        <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search}/>
+        <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search} data={data}/>
         {
           loading?
           <>Loading...</>
