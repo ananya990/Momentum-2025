@@ -10,7 +10,7 @@ import Users from "./Users";
 
 function Dashboard({panel}) {
 
-  const {setData}= useAppContext();
+  const [data, setData]= useState();
   const [loading, setLoading]= useState(true);
   const [refresh, setRefresh] = useState(false);
   const [search, setSearch] = useState("");
@@ -66,27 +66,24 @@ function Dashboard({panel}) {
         <hr />
         <Options loading={loading} panel={panel} refresh={refresh} setRefresh={setRefresh} setSearch={setSearch} search={search}/>
         {
-          panel==0?
-          <Overview loading={loading}/>
-          :
           loading?
           <>Loading...</>
           :
           (
-            panel==1?
-            <Registrations search={search} loading={loading}/>
+            panel==0?
+            <Overview loading={loading} data={data}/>
             :
             (
-              panel==2?
-              <Teams search={search}  loading={loading}/>
+              panel==1?
+              <Registrations loading={loading} data={data} search={search}/>
               :
               (
-                panel==3?
-                <Users search={search} loading={loading}/>
+                panel==2?
+                <Teams loading={loading} data={data} search={search}/>
                 :
-                <></>
-              )
-            )
+                <Users loading={loading} data={data} search={search}/>
+              ) 
+            ) 
           )
         }
       </div>

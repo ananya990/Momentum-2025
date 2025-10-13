@@ -1,8 +1,7 @@
 import { useAppContext } from "@/app/context/ContextProvider";
 import React, { useEffect, useState } from "react";
 
-function Registrations({ search, loading }) {
-  const { data } = useAppContext();
+function Registrations({ search, loading, data }) {
 
   return (
     <>
