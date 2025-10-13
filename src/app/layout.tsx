@@ -11,7 +11,7 @@ import GAnalytics from "@/components/GAnalytics";
 
 export const metadata: Metadata = {
   title: "Momentum 2025",
-  description: "Momentum is a 2-day long festival organized in the month of November. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2025, the 27th Edition is planned for 6th - 7th November.",
+  description: "Momentum is a 2-day long festival organized in the month of November. Momentum is the university fest where we provide the student community from various Universities and Colleges with velocity. This year Momentum 2025, the 27th Edition is planned for 7th - 8th November.",
 };
 
 export default function RootLayout({
