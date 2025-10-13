@@ -17,6 +17,6 @@ export const config = {
     matcher: [
       "/api/user",
       "/api/payment/createOrderId",
-      "/api/payment/verify"
+      "/api/payment/verify",
     ],
 };

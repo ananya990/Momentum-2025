@@ -51,11 +51,13 @@ function Dashboard({panel}) {
       );
 
       const data= await resp.json();
+      
+      console.log(data)
 
       setData(data);
 
     } catch (error) {
-      // console.log(error);
+      console.log(error)
     }
   }
   const heading=["Overview","Registrations","Teams","Users"]

@@ -3,6 +3,7 @@ import React from 'react'
 
 function Overview({loading, data}) {
 
+  if(data && data.payments && data.teams && data.users)
   return (
     <>
       {
