@@ -52,6 +52,11 @@ function EventFormWrapper({ eventId }) {
         });
         const data = await response.json();
 
+        if(data["error"]){
+          alert("Please Try Again!");
+          return;
+        }
+        
 
         // initialize razprpay
         const options = {
