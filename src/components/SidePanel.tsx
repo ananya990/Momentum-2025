@@ -12,28 +12,28 @@ function SidePanel({setPanel, panel}) {
             }}
             className='cursor-pointer'
             >
-                <GrOverview size={25} color={`${panel==0?'purple':'white'}`}/>
+                <GrOverview size={25} color={`${panel==0?'#ea7621':'white'}`}/>
             </span>
             <span onClick={()=>{
                 setPanel(1);
             }}
             className='cursor-pointer'
             >
-                <MdOutlineAppRegistration size={25} color={`${panel==1?'purple':'white'}`}/>
+                <MdOutlineAppRegistration size={25} color={`${panel==1?'#ea7621':'white'}`}/>
             </span>
             <span onClick={()=>{
                 setPanel(2);
             }}
             className='cursor-pointer'
             >
-                <RiTeamLine size={25} color={`${panel==2?'purple':'white'}`}/>
+                <RiTeamLine size={25} color={`${panel==2?'#ea7621':'white'}`}/>
             </span>
             <span onClick={()=>{
                 setPanel(3);
             }}
             className='cursor-pointer'
             >
-                <RiUserSearchLine size={25} color={`${panel==3?'purple':'white'}`}/>
+                <RiUserSearchLine size={25} color={`${panel==3?'#ea7621':'white'}`}/>
             </span>
         </div>
     </div>
