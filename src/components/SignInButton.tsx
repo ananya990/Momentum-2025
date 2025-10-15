@@ -78,7 +78,7 @@ function SignInButton() {
       onClick={async ()=> {
         await signIn();
       }} 
-      className="text-black ml-auto px-6 bg-[#ffffff77] py-[7px] rounded-[2rem] hover:bg-[#ffffffa9]">
+      className="text-white ml-auto px-6 bg-[#73140e] py-[7px] rounded-[2rem] hover:bg-[#5A100B]">
       Sign In
     </button>
   )
