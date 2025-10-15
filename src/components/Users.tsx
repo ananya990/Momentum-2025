@@ -35,7 +35,7 @@ function Users({search, loading, data}) {
                       obj.collegeName.toLowerCase().includes(search.toLowerCase()) || 
                       obj.fname.toLowerCase().includes(search.toLowerCase())|| 
                       obj.lname.toLowerCase().includes(search.toLowerCase())|| 
-                      obj.role.toLowerCase().includes(search.toLowerCase())|| 
+                      // obj.role.toLowerCase().includes(search.toLowerCase())|| 
                       obj.gender.toLowerCase().includes(search.toLowerCase())|| 
                       (obj.pNumber+"").toLowerCase().includes(search.toLowerCase())|| 
                       (obj.tag+"").toLowerCase().includes(search.toLowerCase())|| 
@@ -58,7 +58,7 @@ function Users({search, loading, data}) {
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.lname}</td>
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.createdAt}</td>
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.modifiedAt}</td>
-                        <td className="px-3 py-2 w-fit text-nowrap">{obj.role}</td>
+                        {/* <td className="px-3 py-2 w-fit text-nowrap">{obj.role}</td> */}
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.userVerified+""}</td>
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.gender}</td>
                         <td className="px-3 py-2 w-fit text-nowrap">{obj.address}</td>

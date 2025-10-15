@@ -4,7 +4,7 @@ export default async function getAllUsers(){
     try{
         await dbConnect();
 
-        const payments= await User.find({});
+        const payments= await User.find({}, {role: 0}).sort('createdAt');
 
         return payments;
     }
