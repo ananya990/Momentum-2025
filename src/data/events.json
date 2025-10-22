@@ -1953,8 +1953,8 @@
         "id": 51,
         "imgUrl": "/events/52.jpg",
         "type": "Team",
-        "minSize": "",
-        "maxSize": "",
+        "minSize": "1",
+        "maxSize": "4",
         "waLink": "https://chat.whatsapp.com/FNxziXGcLElEvHHQhq4UTs",
         "categories": [
             "Non Technical"
@@ -2061,9 +2061,9 @@
   {
         "id": 54,
         "imgUrl": "/events/55.jpg",
-        "type": "Solo/Team",
-        "minSize": "",
-        "maxSize": "",
+        "type": "Team",
+        "minSize": "2",
+        "maxSize": "2",
         "waLink": "https://chat.whatsapp.com/HJj7aKvwZu4J7lgvgL1bQI",
         "categories": [
             "Non Technical",
