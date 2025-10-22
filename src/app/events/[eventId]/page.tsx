@@ -15,7 +15,7 @@ function Page({params}) {
     // console.log(params.eventId);
     let eventId= Number(params.eventId);
     // console.log(eventId);
-    if(eventId<0 || eventId>42 || Number.isNaN(eventId)){
+    if(eventId<0 || eventId>54 || Number.isNaN(eventId)){
       router.push("/events/"+params.eventId+"/page-not-found");
     }
     // router.push("/events/"+params.eventId+"/page-not-found");
@@ -24,7 +24,7 @@ function Page({params}) {
   return (
     <>
       {
-        ((params.eventId>=0 && params.eventId<=42)?
+        ((params.eventId>=0 && params.eventId<=54)?
           <div className='min-h-screen bg-[url("/eventDescription/Wall_Design_Petals.webp")] sm:bg-transparent'>
             <div className='relative flex flex-col md:flex-row justify-center items-start gap-8 px-6 md:px-16 py-12 z-10 pt-20 overflow-y-scroll md:overflow-y-hidden'>
               {
