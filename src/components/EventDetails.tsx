@@ -75,7 +75,8 @@ function EventDetails({event}) {
               <span>Mode: Offline</span>
             </div> */}
           </div>
-          {event.rule.length>0 && <div className='space-y-2'>
+          
+          <div className='space-y-2'>
             <div className='text-xl font-semibold flex items-center space-x-2'>
               <TiTick />
               <span>Rules</span>
@@ -87,9 +88,14 @@ function EventDetails({event}) {
                 }
                 } >
                   {
-                    event.rule.map((rule, index)=>{
-                      return (<li key={index}>{rule}</li>)
-                    })
+                    event.rule.length>0 &&
+                      <>
+                        {
+                          event.rule&& event.rule.map((rule, index)=>{
+                            return (<li key={index}>{rule}</li>)
+                          })
+                        }
+                      </>
                   }
                   <li>The decision of the judges shall be final and binding.</li>
                   <li>In the event of any disputes that may arise during the competition, the decision made by the organizers will be final and binding.</li>
@@ -98,7 +104,7 @@ function EventDetails({event}) {
                   <li>Once registered for an event, under no circumstances the registration fees shall be refunded to the participants in case of absence/ disqualification.</li>
                 </ul>
             </div>
-          </div> }
+          </div> 
         {event.criteria.length>0 && <div className='space-y-2'>
             <div className='text-xl font-semibold flex items-center space-x-2'>
               <TiTick />
