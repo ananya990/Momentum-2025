@@ -1953,8 +1953,8 @@
         "id": 51,
         "imgUrl": "/events/52.jpg",
         "type": "Team",
-        "minSize": "1",
-        "maxSize": "4",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/FNxziXGcLElEvHHQhq4UTs",
         "categories": [
             "Non Technical"
@@ -2061,9 +2061,9 @@
   {
         "id": 54,
         "imgUrl": "/events/55.jpg",
-        "type": "Team",
-        "minSize": "2",
-        "maxSize": "2",
+        "type": "Solo/Team",
+        "minSize": "",
+        "maxSize": "",
         "waLink": "https://chat.whatsapp.com/HJj7aKvwZu4J7lgvgL1bQI",
         "categories": [
             "Non Technical",
@@ -2099,5 +2099,250 @@
             "All ingredients must be brought by the participants.",
             "No pre-cooked or store-bought items allowed except for garnishing purposes."
         ]
+    },
+    {
+    "id": 55,
+    "name": "Speed Typer Showdown (Typing Speed Test)",
+    "imgUrl": "/events/56.jpg",
+    "type": "Solo",
+    "minSize": "",
+    "maxSize": "",
+    "fee": 100,
+    "amount": "",
+    "waLink": "https://chat.whatsapp.com/BqWr8BqQY0HE4cit6NkJYv",
+    "categories": [
+      "Technical"
+    ],
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
+    "closed": false,
+    "criteria": [
+      "Typing speed and accuracy (Words per Minute - WPM).",
+      "Each participant will complete two typing tests; the higher score will be considered.",
+      "Mistakes result in penalty points."
+    ],
+    "rule": [
+      "Time Limit: Each round will have a fixed time limit (1, 2, or 3 minutes). No extra time will be given once the timer runs out.",
+      "Typing Mode: Only typing on the provided system is allowed. External devices or software like autocorrect or predictive typing are prohibited.",
+      "Cheating: Any attempt to use scripts, macros, or external devices will result in immediate disqualification.",
+      "Re-attempts: No re-attempts are allowed unless there is a technical fault with the system (subject to event coordinator’s decision).",
+      "Language: The event will be conducted in English, and participants will type in English.",
+      "Participant Conduct: Participants are expected to maintain decorum. Disruptive behavior will lead to disqualification."
+    ],
+    "elimination": [
+      "Top 5 fastest typers qualify for the final round.",
+      "Winner is decided based on WPM and accuracy."
+    ]
+  },
+  {
+    "id": 56,
+    "imgUrl": "/events/57.jpg",
+    "type": "Solo",
+    "minSize": "",
+    "maxSize": "",
+    "waLink": "https://chat.whatsapp.com/F3hE8nOrt3RGnD3ph0hfmR",
+    "categories": ["Technical"],
+    "name": "Code Golf Challenge - Coding Challenge",
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "fee": 150,
+    "amount": "",
+    "closed": false,
+    "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
+    "teamSize": "",
+    "criteria": [
+      "Correctness: Points will only be awarded for correct solutions. A correctly solved problem with a longer solution will score lower than an incorrect solution with a shorter code.",
+      "A panel of judges with expertise in programming will evaluate the submitted solutions based on the scoring criteria."
+    ],
+    "rule": [
+      "Programming Languages: Participants may choose from a predefined list of programming languages (e.g., Python, JavaScript, Ruby, etc.).",
+      "Correctness: Solutions must produce the correct output for all given test cases. Incorrect solutions will not be scored.",
+      "Conduct: Participants are expected to maintain professionalism and sportsmanship. Cheating or collaboration between teams during the coding period will lead to disqualification."
+    ],
+    "elimination": [""]
+  },
+  {
+    "id": 57,
+    "imgUrl": "/events/58.jpg",
+    "type": "Solo",
+    "minSize": "",
+    "maxSize": "",
+    "waLink": "https://chat.whatsapp.com/DTeVnBPfGw7IjQwHYmTHMN",
+    "categories": ["Technical"],
+    "name": "The Analysis Arena (Case Study Competition)",
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "fee": 120,
+    "amount": "",
+    "closed": false,
+    "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
+    "teamSize": "2-3",
+    "criteria": [
+      "Analysis (40%): Depth and clarity of the analysis presented, including identification of key issues and insights.",
+      "Solutions (30%): Practicality and creativity of the proposed solutions or recommendations.",
+      "Presentation (20%): Clarity, engagement, and professionalism in delivery, including use of visual aids.",
+      "Q&A Performance (10%): Ability to answer questions effectively and demonstrate a deep understanding of the case.",
+      "A panel of judges with expertise in business analysis and the relevant industry will evaluate the presentations based on the scoring criteria."
+    ],
+    "rule": [
+      "Case Study Focus: The case study will focus on a specific industry or issue. Participants should tailor their analysis and recommendations accordingly.",
+      "Presentation Materials: Teams may use slides or visual aids during their presentations. These materials must be submitted in advance for review.",
+      "Time Management: Teams must adhere to the allotted time for both presentations and Q&A. Judges will signal when time is nearly up.",
+      "Conduct: Participants are expected to maintain professionalism and respect during presentations and Q&A sessions. Disruptive behavior will not be tolerated."
+    ],
+    "elimination": [""]
+  },
+  {
+    "id": 58,
+    "imgUrl": "/events/59.jpg",
+    "type": "Solo",
+    "minSize": "",
+    "maxSize": "",
+    "waLink": "https://chat.whatsapp.com/L4n8ViahHGAApbjWBqHEfQ",
+    "categories": [
+      "Sports"
+    ],
+    "name": "Plank Challenge",
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "fee": 100,
+    "amount": "",
+    "teamSize": "",
+    "desc": "",
+    "closed": false,
+    "criteria": [
+      "Hold Duration: The primary criterion for winning is the total time held in the plank position. The participant with the longest time wins.",
+      "Tie-Breaker: In case of a tie, a sudden-death plank round may be held, where participants will compete again to determine the winner."
+    ],
+    "rule": [
+      "Plank Position: Participants must maintain a proper plank position: Forearms must be on the ground, with elbows directly under the shoulders. The body must be in a straight line from head to heels. Feet may be together or slightly apart, but the toes must remain on the ground.",
+      "Form Check: Judges will monitor participants to ensure they maintain proper form. Any significant deviations will lead to disqualification.",
+      "Time Limits: Participants must hold the plank position for a minimum of 10 seconds to qualify for timing.",
+      "Conduct: Participants are expected to maintain sportsmanship and respect toward others. Disruptive behavior will not be tolerated."
+    ],
+    "elimination": [
+      "No elimination; a one-round competition."
+    ]
+  },
+  {
+        "id": 59,
+        "imgUrl": "/events/60.jpg",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/ICcTathPdZABUWc8Rg8Q70",
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
+        "name": "Kho-Kho",
+        "mainCoordi": "",
+        "coordinators": "",
+        "contact": "",
+        "dayTime": "",
+        "venue": "",
+        "fee": 100,
+        "amount": "",
+        "teamSize": "",
+        "closed": false,
+        "desc": "Participants showcase their agility, teamwork, and strategy through the traditional Indian sport of Kho-Kho, promoting fitness, coordination, and competitive spirit.",
+        "criteria": [
+            "Points Scored: Based on number of opponents touched/put out while chasing.",
+            "Time Out: Points for players remaining not out till the end of defence.",
+            "Team Coordination: Judges may also observe discipline, teamwork, and sportsmanship."
+        ],
+        "rule": [
+            "Standard Rules: Matches will follow the official Kho-Kho Federation of India rules.",
+            "Team Size: 9 playing members, 3 substitutes allowed.",
+            "Time: Each match will have 2 innings each innings consists of 9 minutes chasing and 9 minutes defending.",
+             "Fair Play: Rough play, misbehaviour, or arguments with referees will lead to penalties or disqualification.",
+            "Final Authority: Referee and organizers’ decisions will be final."
+        ],
+        "elimination": [],
+        "TC": []
+    },
+    {
+    "id": 60,
+    "imgUrl": "/events/61.jpg",
+    "type": "Team",
+    "minSize": "2",
+    "maxSize": "2",
+    "waLink": "https://chat.whatsapp.com/Fb94KTCSJrQ5Ej3nB2BZXJ",
+    "categories": [
+      "Non Technical",
+      "Quizzing"
+    ],
+    "name": "QuizQuest - General Knowledge Quiz",
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "fee": 150,
+    "amount": "",
+    "closed": false,
+    "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
+    "teamSize": "2 members per team",
+    "criteria": [
+      "Accuracy of answers."
+    ],
+    "rule": [
+      "No use of electronic devices.",
+      "Cheating will result in immediate elimination."
+    ],
+    "elimination": [
+      "Teams scoring below 50% will be eliminated after each round."
+    ]
+  },
+  {
+        "id": 61,
+        "imgUrl": "/events/62.jpg",
+        "type": "Solo",
+        "minSize": "",
+        "maxSize": "",
+        "waLink": "https://chat.whatsapp.com/LnoO2XoQJ72HTm51FiX2kf",
+        "categories": [
+            "Sports",
+            "Fun Activities"
+        ],
+        "name": "Passing the Parcel",
+        "mainCoordi": "",
+        "coordinators": "",
+        "contact": "",
+        "dayTime": "",
+        "venue": "",
+        "fee": 100,
+        "amount": "",
+        "teamSize": "",
+        "closed": false,
+        "desc": "Participants enjoy a fun, engaging activity where alertness, spontaneity, and creativity are tested in a light-hearted manner.",
+        "criteria": [
+            "Participation (30%): Active involvement in the game.",
+            "Task Performance (40%): Creativity and enthusiasm in performing assigned tasks.",
+            "Sportsmanship (20%): Positivity and encouragement of others.",
+            "Consistency (10%): Staying in the game across multiple rounds."
+        ],
+        "rule": [
+            "Parcel Handling: Parcel must be passed continuously; no holding on or skipping.",
+            "Task Completion: Participants must complete the given fun task honestly.",
+            "Music Control: Music will be stopped randomly by the organizers to ensure fairness.",
+            "Behaviour: Maintain positivity, sportsmanship, and avoid offensive behaviour.",
+            "Final Authority: Organizers’ decisions regarding eliminations/tasks are final."
+        ],
+        "elimination": [],
+        "TC": []
     }
 ]
