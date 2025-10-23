@@ -2344,5 +2344,34 @@
         ],
         "elimination": [],
         "TC": []
-    }
+    },
+    {
+    "id": 62,
+    "imgUrl": "/events/63.jpg",
+    "type": "Solo",
+    "minSize": "",
+    "maxSize": "",
+    "waLink": "https://chat.whatsapp.com/FOMNPdciwdQHutwGbk1KWB",
+    "categories": [
+      "Sports"
+    ],
+    "name": "Power Bash (BenchPress Competition)",
+    "mainCoordi": "",
+    "coordinators": "",
+    "contact": "",
+    "dayTime": "",
+    "venue": "",
+    "fee": 150,
+    "amount": "",
+    "desc": "",
+    "closed": false,
+    "criteria": [
+      ""
+    ],
+    "rule": [
+      ""
+    ],
+    "elimination": []
+  }
+
 ]
