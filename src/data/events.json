@@ -2370,6 +2370,59 @@
     "rule": [
     ],
     "elimination": []
-  }
+  },
+  {
+        "id": 63,
+        "imgUrl": "/events/64.jpg",
+        "type": "Team",
+        "minSize": "1",
+        "maxSize": "6",
+        "waLink": "https://chat.whatsapp.com/JCFEQldjDKfAXD13DKAr7e?mode=wwt",
+        "categories": [
+            "Technical"
+        ],
+        "name": "Engage 2025",
+        "mainCoordi": "",
+        "coordinators": "Mehak, Lakshya",
+        "contact": "+91 9871872385, +91 9911331253",
+        "dayTime": "9:00 AM onwards, 4th Nov 2025",
+        "venue": "",
+        "fee": 100,
+        "amount": "",
+        "teamSize": "1-6",
+        "closed": false,
+        "desc": "Harness the power of Artificial Intelligence to create innovative solutions for a smarter and more sustainable world. Participants will explore how AI can address real-world environmental challenges such as waste management, cleanenergy, climate action, sustainable fashion, and smart cities. The goal is to combine technology and sustainability to drive meaningful impact for a better future.",
+        "criteria": [
+            "Innovation & Creativity – Uniqueness and originality of the idea.",
+            "Problem Identification – Clarity and depth in understanding the problem.",
+            "Feasibility – Practicality of implementation within the given resources and time.",
+            "Impact & Relevance – Real-world usefulness and potential social or environmental benefit.",
+            "Technical Implementation – Quality of code, use of technology, and technical soundness.",
+            "Functionality – How well the prototype or solution actually works.",
+            "UI/UX Design – Visual appeal, ease of use, and user experience.",
+            "Scalability & Future Scope – Potential to grow, expand, or be deployed in real-world scenarios.",
+            "Teamwork & Collaboration – Coordination, task division, and collective effort of the team.",
+            "Presentation & Communication – Clarity, confidence, and storytelling during the pitch."
+        ],
+        "rule": [
+            "Each team can have 1 to 6 members.",
+            "The hackathon consists of two rounds – Round 1 (PPT Presentation) and Round 2 (PPT + Prototype)",
+            "Only teams shortlisted from Round 1 will qualify for Round 2.",
+            "All ideas must be original and developed during the hackathon period.",
+            "Use of AI tools and open-source resources is allowed, with proper credit given.",
+            "Teams must ensure their projects align with the theme “AI in Sustainability.”",
+            "Participants must submit their PPTs and prototypes before the given deadlines.",
+            "Judges’ decisions will be final and binding.",
+            "Any form of plagiarism, rule violation, or misconduct will result in disqualification.",
+            "Teams must maintain professionalism, discipline, and team spirit throughout the event."
+        ],
+        "elimination": ["The hackathon consists of two rounds — Round 1 (PPT Presentation) and Round 2 (Prototype + Final PPT Presentation).",
+        "All registered teams will participate in Round 1, where they must present their idea through the official PPT template.",
+        "Based on the judging criteria (innovation, feasibility, impact, and clarity), the top-performing teams will be shortlisted for Round 2.",
+        "Teams eliminated after Round 1 will not proceed further in the competition.",
+        "Round 2 will include both prototype development and final presentation before the judges.",
+        "The final winners will be selected from the Round 2 teams based on the prototype quality, innovation, design, and presentation."],
+        "TC": []
+    }
 
 ]
