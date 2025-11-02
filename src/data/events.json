@@ -655,7 +655,7 @@
     "fee": 100,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Based on the survival and tasks completed for crew members.",
       "Impostors judged by successful sabotages and eliminations."
@@ -1058,7 +1058,7 @@
     "fee": 80,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Creativity and use of waste materials.",
       "Aesthetic appeal and overall concept."
@@ -1135,7 +1135,7 @@
         "fee": 80,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Participants create original written works based on a given prompt, showcasing their creativity, storytelling skills, and writing abilities. Registration: Participants must register in advance as individuals. Each participant will receive a unique identification number for anonymity during judging. Prompt Announcement: A specific writing prompt or theme will be announced at the start of the event. Writing Period: Participants will have a set time (e.g., 2-3 hours) to write their pieces. Submission: Completed works must be submitted by the end of the allotted time for evaluation.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the writing in relation to the prompt.",
@@ -1561,7 +1561,7 @@
         "fee": 80,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Participants create original digital artwork based on a specified theme, showcasing their creativity, technical skills, and artistic expression. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme will be announced at the start of the competition (e.g., nature, fantasy, technology). Creation Period: Participants will have a set time (e.g., 1 hour) to create their digital artworks. All artworks must be completed during this time frame. Submission: Completed artworks must be submitted electronically in a specified format (e.g., PNG, JPEG) by the end of the creation period.",
         "criteria": [
             "Creativity (40%): Originality and uniqueness of the artwork in relation to the theme.",
