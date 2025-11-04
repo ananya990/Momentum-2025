@@ -196,6 +196,9 @@ function UserProfile({ usrDetails }) {
             <option value="4">
               4<sup>th</sup> Year
             </option>
+            <option value=“5”>
+              5<sup>th</sup> Year
+            </option>
           </select>
         </div>
         <div className="flex flex-col space-y-1 w-full">
