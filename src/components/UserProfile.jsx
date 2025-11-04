@@ -53,6 +53,7 @@ function UserProfile({ usrDetails }) {
     else if (!year) myToast("Please select a year.");
     else if (!dob) myToast("Please enter your date of birth.");
     else if (!addrs) myToast("Please enter your address.");
+    else if (!clgName || clgName=="") myToast("Please enter your College Name.");
     else {
       await fetch("/api/user", {
         method: "PUT",
