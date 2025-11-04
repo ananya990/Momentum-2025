@@ -548,7 +548,7 @@
     "amount": "",
     "teamSize": "8-20",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Content & Message, Acting & Dialogue, Coordination, Creativity, Crowd Engagement, Overall Impact"
     ],
