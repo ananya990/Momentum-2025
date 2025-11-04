@@ -196,7 +196,7 @@ function UserProfile({ usrDetails }) {
             <option value="4">
               4<sup>th</sup> Year
             </option>
-            <option value=“5”>
+            <option value="5">
               5<sup>th</sup> Year
             </option>
           </select>
