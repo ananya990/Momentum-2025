@@ -1,11 +1,26 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 
 function EventsMarquee() {
   return (
     <>
-        <div className='w-full h-20 text-white text-4xl -mt-20 text-center'>
-            {/* Coming Soon */}
-        </div>
+        <Marquee 
+            autoFill={true}
+            style={{
+                color: "white",             
+                marginTop: "-40px",
+                backgroundColor: "black"      
+            }}
+        >
+
+            <div className="text-xl font-extralight py-1 flex items-center">
+                <span className="px-1 text-sm" style={{ lineHeight: "1" }}>●</span>
+        
+                <span className="px-[3px]"> 
+                  Please Note: Entry for events inside the campus is allowed only with a valid college or university student ID card. No entry will be granted without it under any circumstances.
+                </span>
+            </div>
+        </Marquee>
     </>
   )
 }
