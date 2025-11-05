@@ -22,12 +22,12 @@ function EventDetails({event}) {
             }
           </div>
           <div className='space-y-1 md:space-y-2'>
-            {
+            {/* {
               event.dayTime!="" && <div className='text-sm flex items-center space-x-3'>
                 <MdDateRange size={15}/>
                 <span>Date: {event.dayTime}</span>
               </div>
-            }
+            } */}
             {/* <div className='text-xs md:text-sm flex items-center space-x-1 md:space-x-3'>
               <IoIosTime size={15}/>
               <span>Day/Time: {event.dayTime}</span>
