@@ -953,7 +953,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Teams compete in a test of strength and teamwork to pull the opposing team across a designated line, showcasing their coordination and physical endurance. Registration: Teams must register in advance, with each team consisting of 5 to 10 members. Setup: A rope will be used for the competition, with a marked center line on the ground. Each team will take positions on opposite sides of the rope. Match Format: Teams will compete in a series of rounds, with each round lasting until one team successfully pulls the other team across the center line.Best of three rounds may be played to determine the winning team.",
         "criteria": [
             "Round Wins: The primary criterion for winning is the number of rounds won. The team that wins two out of three rounds is declared the overall winner."
@@ -2327,7 +2327,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Participants enjoy a fun, engaging activity where alertness, spontaneity, and creativity are tested in a light-hearted manner.",
         "criteria": [
             "Participation (30%): Active involvement in the game.",
