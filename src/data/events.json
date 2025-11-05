@@ -185,7 +185,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": true,
+    "closed": false,
     "criteria": [
       "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact."
     ],
