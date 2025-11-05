@@ -228,7 +228,7 @@
     "amount": "",
     "teamSize": "5-20",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Theme (vivid illusion), Formation (team only), Music, Dresses & Walk, Overall Impact."
     ],
