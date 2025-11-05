@@ -509,7 +509,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Content, Delivery, Expressions, Engagement"
     ],
