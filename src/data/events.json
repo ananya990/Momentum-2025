@@ -61,7 +61,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Coordination among team members, overall performance, stage presence, audience appeal."
     ],
@@ -185,7 +185,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Choreography & Energy, Creativity & Synchronisation, Expressions, Overall Impact."
     ],
@@ -228,7 +228,7 @@
     "amount": "",
     "teamSize": "5-20",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Theme (vivid illusion), Formation (team only), Music, Dresses & Walk, Overall Impact."
     ],
@@ -264,7 +264,7 @@
     "contact": "",
     "dayTime": "8th November 2025, 11:45 AM - 12:20 PM",
     "venue": "Main Stage",
-    "closed": false,
+    "closed": true,
     "fee": 450,
     "amount": "",
     "teamSize": "Solo",
@@ -345,7 +345,7 @@
     "contact": "",
     "dayTime": "7th November 2025 | 12:20 PM - 01:00 PM",
     "venue": "Main Stage, NCU Ground",
-    "closed": false,
+    "closed": true,
     "fee": 500,
     "amount": "",
     "teamSize": "Solo",
@@ -428,7 +428,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       " Body Definition, Built of the Muscles, Personality, Crowd Reaction, Overall Impact."
     ],
@@ -756,7 +756,7 @@
     "venue": "",
     "fee": 250,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Teams compete in a battle royale format in the game Free Fire, aiming to be the last squad standing while demonstrating teamwork and strategy. Teams must register in advance, with each team consisting of up to 4 players. Teams will be assigned specific match times. Players must ensure their devices and accounts are ready and updated prior to the event. Each match will be played in a standard squad format. The winning team will be the last squad remaining alive in the match. Teams will earn points based on their performance in each match.",
     "teamSize": "",
     "criteria": [
@@ -834,7 +834,7 @@
         "amount": "",
         "teamSize": "5 members per squad.",
         "desc": "",
-        "closed": false,
+        "closed": true,
         "criteria": [
             "Based on wins in each round."
         ],
@@ -987,7 +987,7 @@
     "fee": 200,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Originality, feasibility, scalability, and market potential of the business plan.",
       "Presentation skills and team collaboration."
@@ -1254,7 +1254,7 @@
     "venue": "RN127, The NorthCap University",
     "fee": 100,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Participants engage in a structured debate format to articulate their viewpoints on a given topic, aiming to persuade the judges and audience with their arguments and rebuttals. Participants must register in advance as individuals or in teams (up to 3 members per team). A specific debate topic will be announced at the beginning of the event. Participants will be assigned either the 'pro' or 'con' position.  Participants will have a limited time (e.g., 10-15 minutes) to prepare their arguments before the debate begins. Each debate will consist of multiple rounds, typically including opening statements, rebuttals, and closing arguments. Time limits will be enforced for each segment (e.g., 3 minutes for opening statements, 2 minutes for rebuttals). Judges will evaluate the debates based on the established criteria, and winners will be announced. ",
     "teamSize": " upto 3 members",
     "criteria": [
@@ -1366,7 +1366,7 @@
     "fee": 100,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Creativity (30%): Originality and uniqueness of the performance.",
       "Skill (30%): Mastery of the talent showcased.",
@@ -1405,7 +1405,7 @@
     "fee": 100,
     "amount": "",
     "desc": "Topic Announcement: A specific topic will be announced at the start of the event. Participants will have a short time (e.g., 10 minutes) to prepare their Shayari based on this topic. Each participant is allotted a maximum of 3 minutes for their performance. Participants will recite their Shayari in front of a panel of judges and an audience.",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "After all performances, judges will evaluate each participant based on set criteria, and winners will be announced.",
       "Creativity (30%): Originality and uniqueness of the Shayari.",
@@ -1443,7 +1443,7 @@
     "fee": 100,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "teamSize": " 2-3 members",
     "criteria": [
       "Content & Knowledge (30%): Depth of research, strength of arguments, and relevance of examples.",
@@ -1600,7 +1600,7 @@
     "fee": 100,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "teamSize": " 2-3 members",
     "criteria": [
       "Accuracy of answers",
@@ -1636,7 +1636,7 @@
     "fee": 100,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "teamSize": " 2-3 members",
     "criteria": [
       "Performance in Games (50%): Scores achieved, levels cleared, or objectives completed.",
@@ -1677,7 +1677,7 @@
     "fee": 100,
     "amount": "",
     "desc": "Requirements: Participants are required to bring their own materials, including canvases, paints, brushes, or other tools. A list of allowed materials will be provided upon registration.Competition Format: The competition will last for 1 hour. Participants will create their artwork based on a theme announced at the start of the event. Submission: Completed artworks must be submitted at the end of the time limit for evaluation.",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Creativity (30%): Originality and uniqueness of the artwork.",
       "Technique (30%): Mastery of the chosen medium and skill in execution.",
@@ -1752,7 +1752,7 @@
     "fee": 150,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "teamSize": "Indiviual",
     "criteria": [
       "Task completion speed and accuracy."
@@ -1784,7 +1784,7 @@
     "amount": "",
     "desc": "",
     "teamSize": "3",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "The winning team will be determined by points scored.",
       "Game Wins: The primary criterion for advancing in the tournament is the number of games won.",
@@ -1896,7 +1896,7 @@
     "venue": "Sports Room, The NorthCap University",
     "fee": 120,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Participants compete in a table tennis tournament to showcase their skills and strategy, aiming to win matches and ultimately be crowned the champion. Participants must register in advance as individuals or in teams (if doubles are allowed). The competition will follow a knockout format, with each match played as the best of three games. Each game will be played to 11 points, and players must win by at least 2 points. A brief warm-up period will be provided before each match. Winners will advance to the next round until a champion is determined.",
     "teamSize": "",
     "criteria": [
@@ -1933,7 +1933,7 @@
     "fee": 100,
     "teamSize": "",
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Participants create and present original memes based on specific themes or prompts, showcasing their creativity, humor, and understanding of meme culture. Registration: Participants must register in advance as individuals or in teams (up to 3 members per team). Theme Announcement: A specific theme or prompt will be announced at the start of the event (e.g., current events, pop culture, etc.). Creation Period: Participants will have a set amount of time (e.g., 45 mins) to create their memes using any digital tools or applications. Each participant or team may submit a limited number of memes (e.g., up to 3 memes). Submission: Memes must be submitted electronically in a specified format (e.g., JPEG, PNG) by the end of the creation period.",
     "criteria": [
         "Creativity (40%): Originality and uniqueness of the meme in relation to the theme.",
@@ -1969,7 +1969,7 @@
         "fee": 200,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Participants present their startup or product ideas to a panel of judges, showcasing creativity, business acumen, problem-solving ability, and persuasive communication skills.",
         "criteria": [
             "Innovation & Creativity (25%): Uniqueness and originality of the idea.",
@@ -2007,7 +2007,7 @@
     "amount": "",
     "desc": "",
     "teamSize": "2",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Points scored in each set."
     ],
@@ -2120,7 +2120,7 @@
     "dayTime": "7th November 2025, 12:00 PM  – 1:00 PM",
     "venue": "N302",
     "desc": "Participants compete to achieve the highest typing speed while maintaining accuracy in a series of typing challenges.",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Typing speed and accuracy (Words per Minute - WPM).",
       "Each participant will complete two typing tests; the higher score will be considered.",
@@ -2155,7 +2155,7 @@
     "venue": "RN135, The NorthCap University",
     "fee": 150,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Participants compete to solve coding problems using the least amount of code possible, demonstrating efficiency and creativity in their programming skills. A set of coding problems will be announced at the start of the event. Each problem will have specific requirements and constraints. Participants will have a fixed amount of time (e.g., 1 hour) to solve as many problems as possible. Each solution will be evaluated based on its code length and correctness.",
     "teamSize": "",
     "criteria": [
@@ -2185,7 +2185,7 @@
     "venue": "N307, The NorthCap University",
     "fee": 120,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Participants analyze a provided case study, develop solutions or recommendations, and present their findings to a panel of judges. Participants must register in advance as individuals or in teams (up to 4 members per team). A case study will be distributed to participants at the start of the event. Participants will have a set time (e.g., 2-3 hours) to analyze the case and prepare their presentations. Each team will present their findings and recommendations to the judges in a specified time (e.g., 10 minutes), followed by a Q&A session (e.g., 5 minutes). Judges will evaluate presentations based on set criteria, and winners will be announced at the end.",
     "teamSize": "2-3",
     "criteria": [
@@ -2258,7 +2258,7 @@
         "fee": 100,
         "amount": "",
         "teamSize": "",
-        "closed": false,
+        "closed": true,
         "desc": "Participants showcase their agility, teamwork, and strategy through the traditional Indian sport of Kho-Kho, promoting fitness, coordination, and competitive spirit.",
         "criteria": [
             "Points Scored: Based on number of opponents touched/put out while chasing.",
@@ -2294,7 +2294,7 @@
     "venue": "RN138, The NorthCap University",
     "fee": 150,
     "amount": "",
-    "closed": false,
+    "closed": true,
     "desc": "Multiple-choice and short-answer questions covering various topics, including history, science, geography, pop culture, and current events.",
     "teamSize": "2 members per team",
     "criteria": [
@@ -2365,7 +2365,7 @@
     "fee": 150,
     "amount": "",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
     ],
     "rule": [
