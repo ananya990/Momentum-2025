@@ -13,12 +13,12 @@ function MyEvents({events}) {
                     return(
                       <div 
                         key={index}
-                        className='h-14 border-[1px] border-[#41454d] rounded-md flex flex-col items-center px-2 md:px-4 justify-between space-y-1'>
-                          <div className='flex w-full justify-between'>
-                            <div className='max-h-[60%]'>{eve[event].name}</div>
-                            <div className='max-h-[60%]'>{eve[event].dayTime}</div>
+                        className='h-14 border-[1px] border-[#41454d] rounded-md flex flex-col items-center px-2 md:px-4 justify-between'>
+                          <div className='flex w-full justify-between p-2'>
+                            <div className='text-sm'>{eve[event].name}</div>
+                            <div className='text-sm'>{eve[event].dayTime}</div>
                           </div>
-                          <div className='max-h-[40%] text-xs'>{eve[event].venue}</div>
+                          <div className='text-xs text-start'>{eve[event].venue}</div>
                       </div>
                     )
                 })
