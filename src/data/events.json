@@ -307,7 +307,7 @@
     "amount": "",
     "teamSize": "Solo",
     "desc": "",
-    "closed": false,
+    "closed": true,
     "criteria": [
       "Coordination among team members, overall performance, stage presence, audience appeal."
     ],
