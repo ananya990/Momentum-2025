@@ -1,4 +1,3 @@
-import React from 'react'
 import eve from '../data/events.json';
 
 function MyEvents({events}) {
@@ -13,10 +12,8 @@ function MyEvents({events}) {
                     return(
                       <div 
                         key={index}
-                        className='min-h-14 border-[1px] border-[#41454d] rounded-md flex flex-col items-start p-2 md:px-4 space-y-1'>
-                          <div className='text-sm font-bold'>{eve[event].name}</div>
-                          <div className='text-xs font-extralight'>{eve[event].dayTime}</div>
-                          <div className='text-xs font-extralight'>Venue: {eve[event].venue}</div>
+                        className='h-14 border-[1px] border-[#41454d] rounded-md flex items-center px-2 md:px-4 justify-between'>
+                          <div className='max-h-[60%]'>{eve[event].name}</div>
                       </div>
                     )
                 })
