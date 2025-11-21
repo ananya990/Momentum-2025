@@ -17,7 +17,7 @@ function EventsMarquee() {
                 <span className="px-1 text-sm" style={{ lineHeight: "1" }}>●</span>
         
                 <span className="px-[3px]"> 
-                  Please Note: Entry for event particpation inside the campus is allowed only with a valid college or university student ID card. No entry will be granted without it under any circumstances.
+                  Results are out
                 </span>
             </div>
         </Marquee>
