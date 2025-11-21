@@ -17,7 +17,7 @@ function EventsMarquee() {
                 <span className="px-1 text-sm" style={{ lineHeight: "1" }}>●</span>
         
                 <span className="px-[3px]"> 
-                  Results are out
+                  RESULTS ARE OUT
                 </span>
             </div>
         </Marquee>
