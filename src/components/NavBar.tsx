@@ -38,7 +38,8 @@ function NavBar() {
           <div className='flex space-x-4 items-center text-black py-4'>
               <Button variant="ghost" className='md:text-md z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/")}}>Home</Button>
               <Button variant="ghost" className='md:text-md z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("/events")}}>Events</Button>
-              <SignInButton/>
+              <Button variant="ghost" className='md:text-md z-50 hover:underline hover:bg-transparent cursor-pointer' onClick={()=>{router.push("https://drive.google.com/file/d/1IRsSV_Tq6zH0RPyWL4ZqcKiG-ovvl0XT/view?usp=sharing")}}>Results</Button>  
+            <SignInButton/>
               {/* <Menu size={25} className='sm:hidden'/> */}
           </div>
           
